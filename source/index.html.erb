@@ -2,15 +2,13 @@
 title: Coding the Humanities
 layout: main
 ---
-<div id="anchor-header" class="layout__item brand-primary">
-  <header class="layout__item-top brand-primary">
+<div id="anchor-header" class="layout__item brand-secundary">
+  <header class="layout__item-top  brand-secundary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
   </header>
   <article class="layout__item-grid-content">
     <div class="textbox">
-      <h1 class="textbar textbar--big">Coding_</h1><br>
-      <h1 class="textbar textbar--big">the_</h1><br>
-      <h1 class="textbar textbar--big">Humanities</h1><br>
+      <h1 class="textbar textbar--big">Offcourse</h1><br>
       <%= blog('blocks').articles[0].body %>
     </div>
   </article>
@@ -21,56 +19,14 @@ layout: main
   </aside>
 </div>
 
-<div id="anchor-video" class="layout__item">
-  <div class="masonry">
-    <% for img in 1..21 %>
-      <div class="masonry__image-container"><img class="masonry__image"src="./images/masonry/<%= img %>.jpg"></div><% end %>
-  </div>
-</div>
-
-<% for item in 2..4 %>
-<div id="anchor-body-<%= item %>" class="layout__item">
-  <header class="layout__item-top brand-primary">
-    <%= partial("partials/navigation", :locals => { :which_is_link_active => item }) %>
-    <img class="image textbar--fullwidth-smallest image--padding" src="./images/item-body-<%= item %>.svg">
-  </header>
-  <% blog('blocks').articles.each do |block| %>
-  <% if block.data.item == item %>
-  <article class="layout__item-grid-content">
-    <h1 class="textbar textbar--fullwidth-smallest"><%= block.title %></h1>
-    <div class="textbox textbox--accent"><%= block.body %></div>
-  </article>
-  <% end %>
-  <% end %>
-  <aside class="layout__item-offgrid-content">
-    <h3 class="references-title">Projects:</h3>
-    <% blog('projects').articles.each do |post| %>
-    <% if post.data.item == item %>
-    <%= partial(:"partials/reference", :locals => { :reference => post })  %>
-    <% end %>
-    <% end %>
-    <h3 class="references-title">Publications:</h3>
-    <% blog('publications').articles.each do |post| %>
-    <% if post.data.item == item %>
-    <%= partial(:"partials/reference", :locals => { :reference => post })  %>
-    <% end %>
-    <% end %>
-  </aside>
-</div>
-<% end %>
-
 <div id="anchor-partners" class="layout__item">
-  <header class="layout__item-top brand-primary">
-    <%= partial("partials/navigation", :locals => { :which_is_link_active => 5 }) %>
-    <img class="image image--fullwidth image--padding" src="images/item-partners.svg" alt="">
-  </header>
   <article class="layout__item-grid-content">
     <h1 class="textbar textbar--fullwidth-smallest"><%= blog('blocks').articles[4].data.title %></h1>
     <div class="textbox"><%= blog('blocks').articles[4].body %></div>
   </article>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[4].data.partners %>
-    <div class="partner">
+    <div class="partner brand-secundary">
       <a href="<%= entity.url || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + entity.name %>">
         <h3 class="partner__name"><%= entity.name %></h3>
         <p class="partner__job"><%= entity.job %></p>
@@ -80,8 +36,8 @@ layout: main
   </div>
 </div>
 
-<div id="anchor-about"class="layout__item brand-primary">
-  <header class="layout__item-top brand-primary">
+<div id="anchor-about"class="layout__item brand-secundary">
+  <header class="layout__item-top brand-secundary">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 6 }) %>
   </header>
   <article class="layout__item-grid-content">

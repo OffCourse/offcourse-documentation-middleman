@@ -3,4 +3,6 @@ title: Coding The Humanities
 date: 31-12-2015
 anchor: item-header
 ---
-Teachers teach, students study. But teachers also learn, and students teach, too. Still, a lot of people see a classroom as a teacher with a group of students. What if we viewed this differently? Coding the Humanities is a collective of teachers, students and researchers who see the classroom as a group of potential teachers. We build a set of teaching practices and tools that leverages existing knowledge and resources. We change the way we see learning – by implementing a coding mindset in every classroom. 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sunt voluptatum sed fugit commodi, deleniti dolorum dolore nobis, quis repellendus mollitia ea consequuntur nam impedit tenetur eaque. Porro, numquam, eaque.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorum, autem, omnis voluptate consequatur voluptas iste quae iusto explicabo accusamus aut nobis ducimus repellendus, non dicta. Ducimus ipsam magnam, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora delectus recusandae earum, harum enim ipsa nobis amet, quo vel quos excepturi sapiente non aperiam eum omnis, quod saepe sint. Voluptatibus.
