@@ -44,8 +44,8 @@ layout: main
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   </header>
   <article class="layout__item-grid-content">
+    <h1 class="textbar textbar--fullwidth-smallest"><%= blog('blocks').articles[2].data.title %></h1>
     <div class="textbox">
-      <h1 class="textbar"><%= blog('blocks').articles[2].data.title %></h1>
       <%= blog('blocks').articles[2].body %>
     </div>
   </article>
