@@ -11,6 +11,10 @@
   line-height: $gridUnit * 3;
 }
 
+.textbar--margin-bottom {
+  margin-bottom: $gridUnit * 3;
+}
+
 .textbar--inverse {
   background-color: $lightBaseColor;
   color: $baseColor;
@@ -27,8 +31,8 @@
 
 .textbar--fullwidth {
   width: 100%;
-  margin: 0 0 $gridUnit * 3 0;
   padding: 0 $gridUnit * 3;
+  margin: 0 0 $gridUnit * 3 0;
   
   font-size: $gridUnit * 4;
   line-height: $gridUnit * 12;

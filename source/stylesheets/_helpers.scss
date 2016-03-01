@@ -6,7 +6,7 @@
 
 .show-sm {
   @media (min-width: $breakpoint-sm){
-    display: none;
+    display: none !important;
   }  
 }
 

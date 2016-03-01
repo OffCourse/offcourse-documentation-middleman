@@ -10,9 +10,18 @@
   color: $inverseColor;
 }
 
+.btn:hover {
+  color: $baseColor;
+  background: $inverseColor;
+}
+
 .btn--small {
   font-size: $gridUnit * 1;
   line-height: $gridUnit * 3;
+}
+
+.btn--top-margin {
+  margin-top: $gridUnit * 2;
 }
 
 .btn--nav {

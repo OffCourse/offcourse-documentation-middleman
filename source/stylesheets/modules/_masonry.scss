@@ -1,12 +1,38 @@
 .masonry {
   width: 100%;
   padding: $gridUnit * 9 $gridUnit * 3;
+  // cursor: ;
+
   -webkit-columns: 2;
+  -moz-columns: 2;
+  -ms-columns: 2;
+  -o-columns: 2;
+  columns: 2;
+
   -webkit-column-gap: $gridUnit * 3;
-  -webkit-filter: grayscale(100%) url(#yellow-filter);
+  -moz-column-gap: $gridUnit * 3;
+  -ms-column-gap: $gridUnit * 3;
+  -o-column-gap: $gridUnit * 3;
+  column-gap: $gridUnit * 3;
+
   @media (min-width: $breakpoint-sm){
     -webkit-columns: 4;
+    -moz-columns: 4;
+    -ms-columns: 4;
+    -o-columns: 4;
+    columns: 4;
   }
+  @media (min-width: $breakpoint-xl){
+    -webkit-columns: 5;
+    -moz-columns: 5;
+    -ms-columns: 5;
+    -o-columns: 5;
+    columns: 5;
+  }
+}
+
+.masonry__image-outer-container {
+  // -webkit-filter: url(#yellow-filter);
 }
 
 .masonry__image-container {
@@ -14,14 +40,42 @@
   border: $gridUnit solid $baseColor;
   margin: 0 0 $gridUnit * 3 0;
   background: $black;
+
+  // -webkit-filter: grayscale(100%);
+  // -moz-filter: grayscale(100%);
+  // -o-filter: grayscale(100%);
+  // filter: grayscale(100%);
 }
 
 .masonry__image {
   width: 100%;
+  max-width: 50vw;
   height: auto;
-  -webkit-filter:  brightness(160%) blur(2px) contrast(2000%) ;
+
+  // -webkit-filter:  brightness(160%) blur(2px) contrast(2000%);
+  // -moz-filter: brightness(160%) blur(2px) contrast(2000%);
+  // -o-filter: brightness(160%) blur(2px) contrast(2000%);
+  // filter: brightness(160%) blur(2px) contrast(2000%);
 }
 
-.masonry:active, .masonry:active .masonry__image {
-  -webkit-filter: none;
+.masonry:active, 
+.masonry:active .masonry__image-outer-container, 
+.masonry:active .masonry__image-container, 
+.masonry:active .masonry__image {
+  // -webkit-filter: unset;
+  // -moz-filter: unset;
+  // -o-filter: unset;
+  // filter: unset;
+}
+
+.masonry__image-outer-container:hover,
+.masonry__image-outer-container:hover .masonry__image-container,
+.masonry__image-outer-container:hover .masonry__image,
+.masonry__image-outer-container:active,
+.masonry__image-outer-container:active .masonry__image-container,
+.masonry__image-outer-container:active .masonry__image {
+  // -webkit-filter: unset;
+  // -moz-filter: unset;
+  // -o-filter: unset;
+  // filter: unset;
 }
