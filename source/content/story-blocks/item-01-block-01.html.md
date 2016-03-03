@@ -1,8 +1,14 @@
 ---
-title: Coding The Humanities
+title: Offcourse
 date: 31-12-2015
-anchor: item-header
+anchor: pitch
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sunt voluptatum sed fugit commodi, deleniti dolorum dolore nobis, quis repellendus mollitia ea consequuntur nam impedit tenetur eaque. Porro, numquam, eaque.
+We are building a future of education that's free and open source. 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dolorum, autem, omnis voluptate consequatur voluptas iste quae iusto explicabo accusamus aut nobis ducimus repellendus, non dicta. Ducimus ipsam magnam, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora delectus recusandae earum, harum enim ipsa nobis amet, quo vel quos excepturi sapiente non aperiam eum omnis, quod saepe sint. Voluptatibus.
+The educational system is failing us. Education becomes more and more expensive, but most things to learn can be found online. But it's hard to structure and organize your own learning, especially when you're new to a topic. Our platform will make this as simple as possible for you.
+
+Offcourse_ is an online learning hub that allows you track your development, leave a trail for peers to follow, and to make it easy to share your progress with your family or a future employer. 
+
+Use Offcourse_ to learn wherever you are, whatever you want.
+
+Happy learning!

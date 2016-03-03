@@ -1,7 +1,7 @@
 ---
-title: Explorations
-date: 27-12-2015
-anchor: explorations
+title: Writings
+date: 23-12-2015
+anchor: writings
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis laudantium facere, accusamus consequatur cumque reiciendis odio suscipit vel minima iure placeat unde magnam. Commodi repudiandae officiis maiores adipisci, pariatur soluta.
 
