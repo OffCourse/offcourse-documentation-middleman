@@ -19,7 +19,7 @@ The first actual materialization of our thought. It was great to finally have so
 
 ### Lifely iteration
 
-We wanted another perspective on matters, so we let someone else take our idea's and build upon it. That proved to be quite fruitful. They focussed quite a bit on the social. As we were not the executing the prototype ourselves we could really take a reactive position and find our essence. We're learners who like to teach. Sharing is a part of that, but the quick fixes of a like button, or constant badgering with communication channels, are probably not that constructive.
+We wanted another perspective on matters, so we let someone else take our idea's and build upon it. That proved to be quite fruitful. They focussed on the social. As we were not the executing the prototype ourselves we could really take a reactive position and find our essence. We're learners who like to teach. Sharing is a part of that, but the quick fixes of a like button, or constant badgering with communication channels, are probably not that constructive.
 
 ### Second iteration
 
