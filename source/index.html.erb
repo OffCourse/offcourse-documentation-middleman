@@ -27,6 +27,15 @@ layout: main
     <h1 class="textbar textbar--fullwidth-smallest"><%= blog('blocks').articles[1].data.title %></h1>
     <div class="textbox"><%= blog('blocks').articles[1].body %></div>
   </article>
+  <div class="layout__item-partners">
+  <% for entity in blog('blocks').articles[1].data.concepts %>
+    <div class="partner brand-secundary">
+      <h3 class="partner__name"><%= entity.concept %></h3>
+      <p class="partner__job"><%= entity.summery %></p>
+      <p class="partner__name"><%= entity.feature %></p>
+    </div> 
+  <% end %>
+  </div>
 </div>
 
 <div id="<%= blog('blocks').articles[2].data.anchor %>" class="layout__item brand-secundary">

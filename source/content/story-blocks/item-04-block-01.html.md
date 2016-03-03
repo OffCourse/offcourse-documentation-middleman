@@ -28,4 +28,4 @@ partners:
   job: Cool guy
   url: 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sint ducimus eius nesciunt eos odio repellat tempora saepe, omnis, labore enim, tempore libero natus animi molestiae reprehenderit esse fugit cum: 
+These are the people currently actively involved in Offcourse. But Offcourse is a continuation of an earlier exploration called Coding the Humanities. If you want to see the full collective, check that website!
