@@ -28,4 +28,4 @@ partners:
   job: Cool guy
   url: 
 ---
-These are the people currently actively involved in Offcourse. But Offcourse is a continuation of an earlier exploration called Coding the Humanities. If you want to see the full collective, check that website!
+These are the people currently actively involved in Offcourse. Offcourse is a continuation of an earlier exploration called Coding the Humanities. If you want to see all the people involved with earlier iterations, check that website!
