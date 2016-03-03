@@ -1,4 +1,5 @@
 bundle exec middleman build
+cp .nojekyll build/.nojekyll
 cd build
 git init
 git remote add origin git@github.com:offcourse/offcourse-documentation-middleman.git
