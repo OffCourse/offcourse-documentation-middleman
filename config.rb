@@ -41,7 +41,7 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
-  set :http_prefix, '/offcourse-documentation-middleman/'
+  # set :http_prefix, '/offcourse-documentation-middleman/'
 end
 
 # Activate the blog gems for both the story and the articles
