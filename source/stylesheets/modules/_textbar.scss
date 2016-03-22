@@ -1,23 +1,25 @@
 .textbar {
   display: inline-block;
-  padding: 0 $gridUnit * 2 0 $gridUnit * 1.5;
+  padding: 0 $gridUnit * 2 0 $gridUnit * 1.5 !important;
   margin-bottom: $gridUnit;
 
   background-color: $baseColor;
 
   color: $inverseColor;
   font-family: $buttonFont;
-  font-size: $gridUnit * 2;
-  line-height: $gridUnit * 3;
-}
-
-.textbar--margin-bottom {
-  margin-bottom: $gridUnit * 3;
 }
 
 .textbar--inverse {
   background-color: $lightBaseColor;
   color: $baseColor;
+}
+
+.textbar--float-right {
+  float: right;
+}
+
+.textbar--margin-bottom {
+  margin-bottom: $gridUnit * 3;
 }
 
 .textbar--big {
@@ -29,29 +31,3 @@
   }
 }
 
-.textbar--fullwidth {
-  width: 100%;
-  padding: 0 $gridUnit * 3;
-  margin: 0 0 $gridUnit * 3 0;
-  
-  font-size: $gridUnit * 4;
-  line-height: $gridUnit * 12;
-}
-
-.textbar--fullwidth-small {
-  width: 100%;
-  padding: 0 $gridUnit * 3;
-  margin: 0 0 $gridUnit * 3 0;
-
-  font-size: $gridUnit * 4;
-  line-height: $gridUnit * 8;
-}
-
-.textbar--fullwidth-smallest {
-  width: 100%;
-  padding: 0 $gridUnit * 3;
-  margin: 0 0 $gridUnit * 3 0;
-  
-  font-size: $gridUnit * 3;
-  line-height: $gridUnit * 6;
-}

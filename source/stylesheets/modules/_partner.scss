@@ -1,6 +1,6 @@
 .partner {
   width: calc((1/2 * 100%) - (#{$gridUnit} * 3));
-  border-bottom: $gridUnit solid $black;
+  border-bottom: $gridUnit/2 solid $black;
 
   margin: 0 $gridUnit * 3 $gridUnit * 3 0;
   padding: $gridUnit * 1;

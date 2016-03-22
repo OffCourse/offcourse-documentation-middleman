@@ -6,9 +6,9 @@
   width: 100%;
   max-width: $gridUnit * 32;
   margin: 0 0 $gridUnit * 1 0;
-  padding: $gridUnit * 1 $gridUnit * 2 $gridUnit * 1 $gridUnit * 3;
+  padding: $gridUnit * 1 $gridUnit * 5/2 $gridUnit * 1 $gridUnit * 3;
   
-  border-right: $gridUnit solid $black;
+  border-right: $gridUnit/2 solid $black;
   
   text-align: right;
 }

@@ -4,8 +4,8 @@
   }  
 }
 
-.show-sm {
-  @media (min-width: $breakpoint-sm){
+.show-md {
+  @media (min-width: $breakpoint-md){
     display: none !important;
   }  
 }

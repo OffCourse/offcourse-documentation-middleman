@@ -4,12 +4,12 @@
   padding: 0 $gridUnit * 3;
 }
 
-.textbox--padding-bottom {
-  padding: 0 $gridUnit * 3 $gridUnit * 12 $gridUnit * 3;
+.paddingbox {
+  padding: 0 $gridUnit * 3;
 }
 
-.textbox--float-right {
-  float: right;
+.textbox--padding-bottom {
+  padding: 0 $gridUnit * 3 $gridUnit * 12 $gridUnit * 3;
 }
 
 .textbox--with-emph-links a {
@@ -23,17 +23,20 @@
 // < these classes break styling >
 .textbox--accent > p:first-of-type{
   font-family: $titleFont;
-  margin: 0 0 $gridUnit * 6 0;
+  padding-bottom: $gridUnit * 3;
 }
-
-.textbox > h2:last-of-type {
-  // padding-top: $gridUnit * 6;
-}
-// </ these classes break styling >
-
 
 .textbox > p {
   padding-bottom: $gridUnit * 1;
+}
+
+.textbox > h1,
+.textbox > h2, 
+.textbox > h3, 
+.textbox > h4, 
+.textbox > h5, 
+.textbox > h6 {
+  padding-top: $gridUnit * 3;
 }
 
 .textbox > ul {

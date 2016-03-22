@@ -1,6 +1,6 @@
 .btn {
   display: inline-block;
-  padding: 0 $gridUnit * 2;
+  padding: 0 $gridUnit;
 
   background: $baseColor;
   
@@ -26,9 +26,9 @@
 
 .btn--nav {
   font-size: $gridUnit * 1;
-  line-height: $gridUnit * 3;
+  line-height: $gridUnit * 2;
   @media (min-width: $breakpoint-md){
-    padding: 0 $gridUnit * 3;
+    padding: 0 $gridUnit * 1;
   }
 }
 
