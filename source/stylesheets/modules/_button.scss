@@ -25,8 +25,8 @@
 }
 
 .btn--nav {
-  font-size: $gridUnit * 1;
-  line-height: $gridUnit * 2;
+  font-size: $gridUnit * 1.5;
+  line-height: $gridUnit * 3;
   @media (min-width: $breakpoint-md){
     padding: 0 $gridUnit * 1;
   }

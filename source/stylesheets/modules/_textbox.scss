@@ -1,7 +1,7 @@
 // element-selectors used because unknown HTML
 
 .textbox {
-  padding: $gridUnit * 3;
+  padding: 0 $gridUnit * 3;
 }
 
 .paddingbox {
@@ -20,6 +20,10 @@
   color: $inverseColor;
 }
 
+.textbox  img {
+  width: 100%;
+}
+
 // < these classes break styling >
 .textbox--accent > p:first-of-type{
   font-family: $titleFont;
@@ -28,15 +32,6 @@
 
 .textbox > p {
   padding-bottom: $gridUnit * 1;
-}
-
-.textbox > h1,
-.textbox > h2, 
-.textbox > h3, 
-.textbox > h4, 
-.textbox > h5, 
-.textbox > h6 {
-  padding-top: $gridUnit * 3;
 }
 
 .textbox > ul {
