@@ -2,7 +2,7 @@
 title: Offcourse
 layout: main
 ---
-<header class="layout__header brand-tertiary">
+<header class="layout__header brand-primary">
   <div id="<%= blog('blocks').articles[0].data.anchor %>" class="layout__header-container">
     <header class="layout__item-top">
       <%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
@@ -28,9 +28,11 @@ layout: main
   <div class="textbox">
   <% for entity in blog('blocks').articles[1].data.concepts %>
     <div class="feature">
-      <h3 class="feature__name"><%= entity.concept %></h3>
-      <p class="feature__job"><%= entity.summery %></p>
-      <p class="feature__name"><%= entity.feature %></p>
+      <div class="feature__meta">
+        <h3 class="feature__name"><%= entity.concept %></h3>
+        <p class="feature__job"><%= entity.summery %></p>
+        <p class="feature__name"><%= entity.feature %></p>
+      </div>
     </div> 
   <% end %>
   </div>
