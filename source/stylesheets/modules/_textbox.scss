@@ -20,8 +20,9 @@
   color: $inverseColor;
 }
 
-.textbox  img {
+.textbox img {
   width: 100%;
+  -webkit-filter: grayscale(100%);
 }
 
 // < these classes break styling >

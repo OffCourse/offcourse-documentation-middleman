@@ -9,7 +9,7 @@ We have explored a few paths that we could take with Offcourse.
 
 Our first approach was focussed on providing structure to learning.
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![First Iteration](offcourse-first.png)
 
 However user research suggested that it did it was a bit too structured
 
@@ -17,7 +17,7 @@ However user research suggested that it did it was a bit too structured
 
 We then let another party take a crack at it. They focussed on the social part of learning.
 
-[img](www.img.com)
+![Lively Iteration](iteration-lifely.png)
 
 It was an interesting take on learning.
 
@@ -25,4 +25,4 @@ It was an interesting take on learning.
 
 Our current iteration focused on getting the tech ready.
 
-![Current Iteration](current-iteration.png "Current Iteration")
+![Current Iteration](current-iteration.png)
