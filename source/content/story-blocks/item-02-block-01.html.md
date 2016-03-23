@@ -1,5 +1,5 @@
 ---
-title: features
+title: Features
 date: 29-12-2015
 anchor: features
 concepts: 
@@ -15,7 +15,6 @@ concepts:
 - concept: Track Progress
   summery: | 
     Sharing and comparing your progress with others is a proven way to stay motivated. But even if you’re not competitive, it’s still good to know how you measure up against your peers. You can enable Offcourse_ to track what you learn. It will help you reach just a little bit further and at the end, you will have created a personal dashboard you can share with your family or a future employer.
-  feature: Suggestive interface
 - concept: A Community
   summery: | 
     In school, your teacher decided what you should learn. Here, that’s you! You and your peers gather the most interesting learning resources on the web. Through these lists, you get in touch with people from all over the world who are interested in the same things as you. Imagine the different perspectives, and what you’ll learn from them. 

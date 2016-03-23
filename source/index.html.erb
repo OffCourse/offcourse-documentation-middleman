@@ -2,57 +2,51 @@
 title: Offcourse
 layout: main
 ---
-<div id="<%= blog('blocks').articles[0].data.anchor %>" class="layout__item brand-secundary">
-  <header class="layout__item-top  brand-secundary">
-    <%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
-  </header>
-  <article class="layout__item-grid-content">
-    <div class="textbox">
-      <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1><br>
-      <%= blog('blocks').articles[0].body %>
+<header class="layout__header brand-tertiary">
+  <div id="<%= blog('blocks').articles[0].data.anchor %>" class="layout__header-container">
+    <header class="layout__item-top">
+      <%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
     </div>
+  </div>
+</header>
+
+<div id="<%= blog('blocks').articles[0].data.anchor %>" class="layout__item layout__item--sc">
+  <article class="textbox">
+    <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1><br>
+    <%= blog('blocks').articles[0].body %>
   </article>
-  <aside class="layout__item-offgrid-content layout__item-offgrid-content--no-padding">
-    <div class="hammer">
-      <img onclick="" class="hammer__image hammer__image--header " src="./images/hammer-short.svg" alt="">
-    </div>
-  </aside>
 </div>
 
-<div id="<%= blog('blocks').articles[1].data.anchor %>" class="layout__item">
+<div id="<%= blog('blocks').articles[1].data.anchor %>" class="layout__item layout__item--sc">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
   </header>
-  <article class="layout__item-grid-content">
-    <div class="textbox">
-      <h1 class="textbar"><%= blog('blocks').articles[1].data.title %></h1>
-      <%= blog('blocks').articles[1].body %>
-    </div>
+  <article class="textbox">
+    <h1 class="textbar"><%= blog('blocks').articles[1].data.title %></h1>
+    <%= blog('blocks').articles[1].body %>
   </article>
-  <div class="layout__item-partners">
+  <div class="textbox">
   <% for entity in blog('blocks').articles[1].data.concepts %>
-    <div class="partner brand-secundary">
-      <h3 class="partner__name"><%= entity.concept %></h3>
-      <p class="partner__job"><%= entity.summery %></p>
-      <p class="partner__name"><%= entity.feature %></p>
+    <div class="feature">
+      <h3 class="feature__name"><%= entity.concept %></h3>
+      <p class="feature__job"><%= entity.summery %></p>
+      <p class="feature__name"><%= entity.feature %></p>
     </div> 
   <% end %>
   </div>
 </div>
 
-<div id="<%= blog('blocks').articles[2].data.anchor %>" class="layout__item brand-secundary">
+<div id="<%= blog('blocks').articles[2].data.anchor %>" class="layout__item layout__item--sc">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 2 }) %>
   </header>
-  <article class="layout__item-grid-content">
-    <div class="textbox">
-      <h1 class="textbar"><%= blog('blocks').articles[2].data.title %></h1>
-      <%= blog('blocks').articles[2].body %>
-    </div>
+  <article class="textbox">
+    <h1 class="textbar"><%= blog('blocks').articles[2].data.title %></h1>
+    <%= blog('blocks').articles[2].body %>
   </article>
 </div>
 
-<div id="<%= blog('blocks').articles[3].data.anchor %>" class="layout__item">
+<div id="<%= blog('blocks').articles[3].data.anchor %>" class="layout__item layout__item--sc">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   </header>
@@ -64,7 +58,7 @@ layout: main
   </article>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[3].data.partners %>
-    <div class="partner brand-secundary">
+    <div class="partner">
       <a href="<%= entity.url || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + entity.name %>">
         <h3 class="partner__name"><%= entity.name %></h3>
         <p class="partner__job"><%= entity.job %></p>
@@ -74,8 +68,8 @@ layout: main
   </div>
 </div>
 
-<div id="<%= blog('blocks').articles[4].data.anchor %>" class="layout__item brand-secundary">
-  <header class="layout__item-top brand-secundary">
+<div id="<%= blog('blocks').articles[4].data.anchor %>" class="layout__item layout__item--sc">
+  <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
   </header>
   <article class="layout__item-grid-content">
@@ -84,7 +78,7 @@ layout: main
       <%= blog('blocks').articles[4].body %>
     </div>
   </article>
-  <aside class="layout__item-offgrid-content">
+  <div class="textbox">
     <h3 class="references-title">Projects:</h3>
     <% blog('projects').articles.each do |post| %>
     <%= partial(:"partials/reference", :locals => { :reference => post })  %>
@@ -93,6 +87,6 @@ layout: main
     <% blog('publications').articles.each do |post| %>
     <%= partial(:"partials/reference", :locals => { :reference => post })  %>
     <% end %>
-  </aside>
+  </div>
 
 </div>

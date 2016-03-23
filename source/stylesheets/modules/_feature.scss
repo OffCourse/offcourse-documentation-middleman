@@ -1,0 +1,59 @@
+.feature {
+  display: flex;
+  width: 100%;
+  margin: $gridUnit * 3 0;
+}
+
+.feature__meta {
+  width: 75%;
+}
+
+.feature__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: 0 0 0 $gridUnit*3;
+
+  background: black;
+  color: white;
+}
+
+.feature__button:hover {
+  background: white;
+  color: black;
+  border: $gridUnit solid black;
+}
+
+.partner {
+  width: calc((1/2 * 100%) - (#{$gridUnit} * 3));
+  border-bottom: $gridUnit/2 solid $black;
+
+  margin: 0 $gridUnit * 3 $gridUnit * 3 0;
+  padding: $gridUnit * 1;
+
+  @media (min-width: $breakpoint-sm){
+    width: calc((1/2 * 100%) - (#{$gridUnit} * 3));
+  }
+  @media (min-width: $breakpoint-md){
+    width: calc((1/3 * 100%) - (#{$gridUnit} * 3));
+  }
+  @media (min-width: $breakpoint-xl){
+    width: calc((1/4 * 100%) - (#{$gridUnit} * 3));
+  }
+  @media (min-width: $breakpoint-xxl){
+    width: calc((1/5 * 100%) - (#{$gridUnit} * 3));
+  }
+}
+
+.partner__name {
+  font-family: $titleFont;
+  font-size: $gridUnit * 1.5;
+  line-height: $gridUnit * 2;
+}
+
+.partner__job {
+  font-family: $baseFont;
+  font-size: $gridUnit * 1.5;
+  line-height: $gridUnit * 2;
+}
