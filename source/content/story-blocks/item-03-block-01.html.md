@@ -19,6 +19,6 @@ The second approach was to let another team take a crack at it. They focussed on
 
 ## Current
 
-Our second iteration is focussed on flatting out the structure, while maintaining the core idea's. 
+Our second iteration is aiming more towards a flatter structure, while maintaining the core idea's. 
 
 [![Current Iteration](current-iteration.png)](http://offcourse-staging.s3-website-us-west-2.amazonaws.com/)
