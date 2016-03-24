@@ -10,12 +10,12 @@ partners:
   img: charlotte.jpg
 - name: Jan Hein Hoogstad
   summery:
-  job: project founder, lead front end developer and course coordinator
+  job: project founder, lead front end developer
   url: https://www.linkedin.com/in/yeehaa
   img: janhein.jpg
 - name: Marijn Koolen
   summery:
-  job: project founder, lead back end developer and course coordinator
+  job: project founder, lead back end developer
   url: https://www.linkedin.com/in/marijnkoolen
   img: marijn.jpg
 - name: Reika Egawa-Chavers
@@ -25,12 +25,16 @@ partners:
   img: reika.jpg
 - name: Robert-Jan Korteschiel
   summery:
-  job: student assistant autumn ‘14 and ‘15 and junior developer
+  job: junior developer
   url: https://www.linkedin.com/in/robert-jan-korteschiel-b6214147
   img: robertjan.jpg
-- name: Greg
+- name: Greg ...
   summery:
-  job: Cool guy
+  job: developer
+  url:
+- name: Donald
+  summery:
+  job: designer
   url: 
 ---
 These are the people currently actively involved in Offcourse. Offcourse is a continuation of an earlier exploration called Coding the Humanities. If you want to see all the people involved with earlier iterations, check that website!

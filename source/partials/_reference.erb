@@ -1,4 +1,10 @@
-<a href="<%= config.http_prefix + reference.data.type + '.html#' + reference.slug %>">
+<a href="
+<% 
+  if reference.data.reference 
+    concat reference.data.reference.url; 
+  end
+%>
+">
 <div onclick="" class="feature">
   <div class="feature__meta">
     <h5 class="feature__title"><%= reference.data.title %></h5>
