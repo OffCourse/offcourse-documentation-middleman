@@ -5,17 +5,23 @@ anchor: explorations
 ---
 We have explored a few paths that we could take with Offcourse. 
 
-## Current
+<br>
+<div class="github-button">
+  <a class="github-button" href="https://github.com/offcourse/offcourse-frontend" data-style="mega" aria-label="Watch offcourse/offcourse-frontend on GitHub">Watch on Github</a>
+</div>
+
+## Current 
 
 Our second iteration is aiming more towards a flatter structure, while maintaining the core idea's. 
 
 [![Current Iteration](current-iteration.png)](http://staging.offcourse.io)
 
+
 ## Social
 
 The second approach was to let another team take a crack at it. They focussed on the social part of learning.
 
-[![Lively Iteration](iteration-lifely.png)](http://lifely.offcourse.io)
+[![Lively Iteration](iteration-lifely.png)](http://study.offcourse.io)
 
 ## Structure
 

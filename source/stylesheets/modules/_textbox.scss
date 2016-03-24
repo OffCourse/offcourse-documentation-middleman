@@ -38,6 +38,11 @@
   filter: unset;
 }
 
+.textbox .github-button {
+  float: right;
+  padding-top: $gridUnit ;
+}
+
 // Textbox variants
 
 .textbox--accent > p:first-of-type{
