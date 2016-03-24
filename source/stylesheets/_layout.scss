@@ -12,7 +12,7 @@
 }
 
 .layout__header-container {
-  width: 66 * $gridUnit;
+  max-width: 66 * $gridUnit;
   min-height: unset;
 }
 
@@ -20,7 +20,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 66*$gridUnit;
+  max-width: 66*$gridUnit;
+  padding-bottom: $gridUnit *  9;
 }
 
 .layout__item--short {

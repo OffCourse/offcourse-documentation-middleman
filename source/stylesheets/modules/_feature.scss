@@ -8,6 +8,10 @@
   width: 90%;
 }
 
+.feature:hover  .feature__title {
+  text-decoration: underline;
+}
+
 .feature__meta--fw {
   width: 100%;
 }
@@ -19,9 +23,10 @@
   width: 10%;
   margin: 0 0 0 $gridUnit*3;
 
-  background: $lightgray;
-  color: black;
+  background: $black;
+  color: white;
   border: $gridUnit solid black;
+  font-size: $gridUnit*3;
 }
 
 .feature__button:hover {

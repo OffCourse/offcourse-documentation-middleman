@@ -3,16 +3,11 @@ title: Offcourse
 layout: main
 ---
 
-<img class="image--fullwidth" src="./images/item-body-2.svg" alt="">
+<img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth" src="./images/item-body-2.svg" alt="">
 
-<div id="<%= blog('blocks').articles[0].data.anchor %>" class="layout__item layout__item--sc">
+<div class="layout__item layout__item--sc">
   <article class="textbox">
     <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1>
-  </article>
-</div>
-
-<div id="<%= blog('blocks').articles[0].data.anchor %>" class="layout__item layout__item--sc">
-  <article class="textbox">
     <%= blog('blocks').articles[0].body %>
   </article>
 </div>
@@ -44,6 +39,8 @@ layout: main
     <%= blog('blocks').articles[2].body %>
   </article>
 </div>
+
+<img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth image--padding" src="./images/item-partners.svg" alt="">
 
 <div id="<%= blog('blocks').articles[3].data.anchor %>" class="layout__item layout__item--sc">
   <header class="layout__item-top">

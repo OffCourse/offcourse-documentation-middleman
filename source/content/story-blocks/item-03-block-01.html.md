@@ -7,22 +7,18 @@ We have explored a few paths that we could take with Offcourse.
 
 ## Structure
 
-Our first approach was focussed on providing structure to learning.
+The first approach we took was structuring the content with a waypoint and checkpoints. You can explore it here: 
 
 ![First Iteration](offcourse-first.png)
 
-However user research suggested that it did it was a bit too structured
-
 ## Social
 
-We then let another party take a crack at it. They focussed on the social part of learning.
+The second approach was to let another team take a crack at it. They focussed on the social part of learning.
 
 ![Lively Iteration](iteration-lifely.png)
 
-It was an interesting take on learning.
-
 ## Current
 
-Our current iteration focused on getting the tech ready.
+Our second iteration is focussed on flatting out the structure, while maintaining the core idea's. 
 
 ![Current Iteration](current-iteration.png)
