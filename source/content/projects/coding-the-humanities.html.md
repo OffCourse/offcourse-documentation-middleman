@@ -7,7 +7,7 @@ authors:
 - Johanna Barnbeck
 images:
 summery: |
-  Coding the Humanities is the teaching program that inspired the need for offcourse. 
+  Coding the Humanities is the teaching program that inspired Offcourse. 
 reference:
   title: Coding the Humanities
   url: http://codingthehumanities.com/
