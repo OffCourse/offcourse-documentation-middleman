@@ -23,6 +23,10 @@
   border-bottom: $gridUnit/2 solid $red;
 }
 
+.feature__title:hover {
+  border-bottom: $gridUnit/2 solid $black;
+}
+
 .feature__button {
   display: flex;
   justify-content: center;

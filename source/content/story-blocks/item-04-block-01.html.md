@@ -10,12 +10,12 @@ partners:
   img: charlotte.jpg
 - name: Jan Hein Hoogstad
   summery:
-  job: project founder, lead front end developer
+  job: project founder, lead developer
   url: https://www.linkedin.com/in/yeehaa
   img: janhein.jpg
 - name: Marijn Koolen
   summery:
-  job: project founder, lead back end developer
+  job: project founder, developer
   url: https://www.linkedin.com/in/marijnkoolen
   img: marijn.jpg
 - name: Reika Egawa-Chavers

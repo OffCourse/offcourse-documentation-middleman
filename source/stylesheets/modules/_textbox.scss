@@ -30,6 +30,14 @@
   filter: grayscale(100%);
 }
 
+.textbox img:hover {
+  -webkit-filter: unset;
+  -moz-filter: unset;
+  -ms-filter: unset;
+  -o-filter: unset;
+  filter: unset;
+}
+
 // Textbox variants
 
 .textbox--accent > p:first-of-type{
