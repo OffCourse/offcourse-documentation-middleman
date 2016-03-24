@@ -39,4 +39,4 @@ partners:
   url: https://nl.linkedin.com/in/donaldroos/nl
   img: donald.jpg
 ---
-These are the people currently actively involved in Offcourse. Offcourse is a continuation of an earlier exploration called Coding the Humanities. If you want to see all the people involved with earlier iterations, check that website!
+These are the people currently actively involved in Offcourse.
