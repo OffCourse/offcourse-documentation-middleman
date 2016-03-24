@@ -28,13 +28,15 @@ partners:
   job: junior developer
   url: https://www.linkedin.com/in/robert-jan-korteschiel-b6214147
   img: robertjan.jpg
-- name: Greg ...
+- name: Greg Rodriguez Varias
   summery:
   job: developer
-  url:
-- name: Donald
+  url: https://www.linkedin.com/in/gregrv/nl
+  img: greg.jpg
+- name: Donald Roos
   summery:
   job: designer
-  url: 
+  url: https://nl.linkedin.com/in/donaldroos/nl
+  img: donald.jpg
 ---
 These are the people currently actively involved in Offcourse. Offcourse is a continuation of an earlier exploration called Coding the Humanities. If you want to see all the people involved with earlier iterations, check that website!
