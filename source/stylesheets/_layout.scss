@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-top: $gridUnit * 9;
+  padding: $gridUnit * 9 0;
   background: black;
   color: white;
 }
