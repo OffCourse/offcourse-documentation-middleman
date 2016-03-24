@@ -15,7 +15,7 @@ Our second iteration is aiming more towards a flatter structure, while maintaini
 
 The second approach was to let another team take a crack at it. They focussed on the social part of learning.
 
-[![Lively Iteration](iteration-lifely.png)](http://lifely.offcourse.io
+[![Lively Iteration](iteration-lifely.png)](http://lifely.offcourse.io)
 
 ## Structure
 
