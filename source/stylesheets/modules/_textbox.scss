@@ -23,11 +23,11 @@
 .textbox img {
   width: 100%;
   padding: $gridUnit * 1 0 $gridUnit * 3 0;
-  -webkit-webkit-filter: grayscale(100%);
-  -moz-webkit-filter: grayscale(100%);
-  -ms-webkit-filter: grayscale(100%);
-  -o-webkit-filter: grayscale(100%);
-  webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 // Textbox variants
