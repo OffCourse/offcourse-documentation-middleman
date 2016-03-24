@@ -39,4 +39,4 @@ partners:
   url: https://nl.linkedin.com/in/donaldroos/nl
   img: donald.jpg
 ---
-These are the people currently actively involved in Offcourse.
+Meet the people currently involved in Offcourse.
