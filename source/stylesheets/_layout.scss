@@ -21,7 +21,8 @@
   flex-wrap: wrap;
   align-items: center;
   max-width: 66*$gridUnit;
-  padding-bottom: $gridUnit *  9;
+  padding-top: $gridUnit * 3;
+  padding-bottom: $gridUnit * 15;
 }
 
 .layout__item-small {

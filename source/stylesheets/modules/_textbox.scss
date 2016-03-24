@@ -1,10 +1,6 @@
-// element-selectors used because unknown HTML
+// Textbox base
 
 .textbox {
-  padding: 0 $gridUnit * 3;
-}
-
-.paddingbox {
   padding: 0 $gridUnit * 3;
 }
 
@@ -12,23 +8,12 @@
   padding: 0 $gridUnit * 3 $gridUnit * 12 $gridUnit * 3;
 }
 
-.textbox--with-emph-links a {
-  display: inline-block;
-  padding: 0 $gridUnit;
-
-  background: $baseColor;
-  color: $inverseColor;
-}
+// Textbox base-styling
 
 .textbox img {
   width: 100%;
+  padding: $gridUnit * 1 0 $gridUnit * 3 0;
   -webkit-filter: grayscale(100%);
-}
-
-// < these classes break styling >
-.textbox--accent > p:first-of-type{
-  font-family: $titleFont;
-  padding-bottom: $gridUnit * 3;
 }
 
 .textbox > p {
@@ -41,7 +26,18 @@
   list-style-position: inside;
 }
 
-.textbox__inverse-link {
-  color: white;
+// Textbox variants
+
+.textbox--accent > p:first-of-type{
+  font-family: $titleFont;
+  padding-bottom: $gridUnit * 3;
+}
+
+.textbox--with-emph-links a {
+  display: inline-block;
+  padding: 0 $gridUnit;
+
+  background: $baseColor;
+  color: $inverseColor;
 }
 
