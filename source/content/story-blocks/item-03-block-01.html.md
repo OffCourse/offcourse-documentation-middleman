@@ -9,19 +9,19 @@ We have explored a few paths that we could take with Offcourse.
 
 Our second iteration is aiming more towards a flatter structure, while maintaining the core idea's. 
 
-[![Current Iteration](current-iteration.png)](http://offcourse-staging.s3-website-us-west-2.amazonaws.com/)
+[![Current Iteration](current-iteration.png)](http://staging.offcourse.io)
 
 ## Social
 
 The second approach was to let another team take a crack at it. They focussed on the social part of learning.
 
-[![Lively Iteration](iteration-lifely.png)](http://files.lifely.nl/cth-demo/#/app/dashboard)
+[![Lively Iteration](iteration-lifely.png)](http://lifely.offcourse.io
 
 ## Structure
 
 The first approach we took was structuring the content with a waypoint and checkpoints. You can explore it here: 
 
-[![First Iteration](offcourse-first.png)](http://offcourse.io)
+[![First Iteration](offcourse-first.png)](http://old.offcourse.io)
 
 
 
