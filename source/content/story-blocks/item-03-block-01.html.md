@@ -5,11 +5,11 @@ anchor: explorations
 ---
 We have explored a few paths that we could take with Offcourse. 
 
-## Structure
+## Current
 
-The first approach we took was structuring the content with a waypoint and checkpoints. You can explore it here: 
+Our second iteration is aiming more towards a flatter structure, while maintaining the core idea's. 
 
-[![First Iteration](offcourse-first.png)](http://offcourse.io)
+[![Current Iteration](current-iteration.png)](http://offcourse-staging.s3-website-us-west-2.amazonaws.com/)
 
 ## Social
 
@@ -17,8 +17,12 @@ The second approach was to let another team take a crack at it. They focussed on
 
 [![Lively Iteration](iteration-lifely.png)](http://files.lifely.nl/cth-demo/#/app/dashboard)
 
-## Current
+## Structure
 
-Our second iteration is aiming more towards a flatter structure, while maintaining the core idea's. 
+The first approach we took was structuring the content with a waypoint and checkpoints. You can explore it here: 
 
-[![Current Iteration](current-iteration.png)](http://offcourse-staging.s3-website-us-west-2.amazonaws.com/)
+[![First Iteration](offcourse-first.png)](http://offcourse.io)
+
+
+
+

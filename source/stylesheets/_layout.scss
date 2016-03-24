@@ -22,15 +22,15 @@
   align-items: center;
   max-width: 66*$gridUnit;
   padding-top: $gridUnit * 3;
-  padding-bottom: $gridUnit * 15;
+  padding-bottom: $gridUnit * 3;
 }
 
-.layout__item-small {
-  max-width: 50*$gridUnit;
+.layout__item--padding-bottom {
+  padding-bottom: $gridUnit * 18;
 }
 
-.layout__item--short {
-  min-height: unset;
+.layout__item--margin-bottom {
+  margin-bottom: $gridUnit * 9;
 }
 
 .layout__footer {
@@ -43,8 +43,5 @@
 }
 
 .layout__item-partners {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  padding: 0 0 $gridUnit * 9 $gridUnit * 3; 
+  padding: 0 $gridUnit * 3; 
 }

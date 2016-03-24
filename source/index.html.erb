@@ -3,16 +3,16 @@ title: Offcourse
 layout: main
 ---
 
-<img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth" src="./images/item-body-2.svg" alt="">
+<img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth brand-tertiary" src="./images/item-body-2.svg" alt="">
 
-<div class="layout__item">
+<div class="layout__item layout__item--margin-bottom brand-tertiary">
   <article class="textbox">
     <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1>
     <%= blog('blocks').articles[0].body %>
   </article>
 </div>
 
-<div id="<%= blog('blocks').articles[1].data.anchor %>" class="layout__item layout__item--sc">
+<div id="<%= blog('blocks').articles[1].data.anchor %>" class="layout__item layout__item--padding-bottom">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
   </header>
@@ -21,7 +21,7 @@ layout: main
     <% for entity in blog('blocks').articles[1].data.concepts %>
     <div class="feature">
       <div class="feature__meta feature__meta--fw">
-        <h3 class="feature__name"><%= entity.concept %></h3>
+        <h3 class="feature__title"><%= entity.concept %></h3>
         <p class="feature__job"><%= entity.summery %></p>
         <p class="feature__name"><%= entity.feature %></p>
       </div>
@@ -30,9 +30,9 @@ layout: main
   </div>
 </div>
 
-<img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth image--padding-bottom" src="./images/item-body-4.svg" alt="">
+<img id="<%= blog('blocks').articles[2].data.anchor %>"class="image--fullwidth image--padding brand-tertiary" src="./images/item-body-4.svg" alt="">
 
-<div id="<%= blog('blocks').articles[2].data.anchor %>" class="layout__item layout__item--sc">
+<div class="layout__item layout__item--padding-bottom">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 2 }) %>
   </header>
@@ -42,9 +42,9 @@ layout: main
   </article>
 </div>
 
-<img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth image--padding image--padding-bottom" src="./images/item-partners.svg" alt="">
+<img id="<%= blog('blocks').articles[3].data.anchor %>" class="image--fullwidth image--padding-center brand-tertiary" src="./images/item-partners.svg" alt="">
 
-<div id="<%= blog('blocks').articles[3].data.anchor %>" class="layout__item layout__item--sc">
+<div class="layout__item layout__item--padding-bottom">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   </header>
@@ -56,20 +56,20 @@ layout: main
   </article>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[3].data.partners %>
-    <a class="partner__a" href="<%= entity.url || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + entity.name %>">
     <div class="partner">
         <img class="partner__image" src="./images/people/<%= entity.img %>" alt="">
         <div class="partner__meta">
-          <h3 class="partner__name"><%= entity.name %></h3>
+          <a class="partner__a" href="<%= entity.url || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + entity.name %>">
+            <h3 class="partner__name"><%= entity.name %></h3>
+          </a>
           <p class="partner__job"><%= entity.job %></p>
         </div>
     </div>
-    </a>
     <% end %>
   </div>
 </div>
 
-<div id="<%= blog('blocks').articles[4].data.anchor %>" class="layout__item layout__item--sc">
+<div id="<%= blog('blocks').articles[4].data.anchor %>" class="layout__item layout__item--padding-bottom">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
   </header>

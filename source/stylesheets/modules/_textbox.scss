@@ -10,12 +10,6 @@
 
 // Textbox base-styling
 
-.textbox img {
-  width: 100%;
-  padding: $gridUnit * 1 0 $gridUnit * 3 0;
-  -webkit-filter: grayscale(100%);
-}
-
 .textbox > p {
   padding-bottom: $gridUnit * 1;
 }
@@ -24,6 +18,12 @@
   padding-bottom: $gridUnit * 1;
   list-style: square;
   list-style-position: inside;
+}
+
+.textbox img {
+  width: 100%;
+  padding: $gridUnit * 1 0 $gridUnit * 3 0;
+  -webkit-filter: grayscale(100%);
 }
 
 // Textbox variants

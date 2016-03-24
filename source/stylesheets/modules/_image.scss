@@ -6,12 +6,17 @@
   width: 100%;
 }
 
+
 .image--halfwidth {
   width: 50%;
   margin: 0 auto;
 }
 
 .image--padding {
+  padding: $gridUnit * 9 0;
+}
+
+.image--padding-center {
   padding: $gridUnit * 9 $gridUnit * 3;  
   @media (min-width: $breakpoint-sm){
     padding: $gridUnit * 9;
@@ -20,8 +25,4 @@
 
 .image--margin-top {
   margin: $gridUnit * 3 0 0 0;
-}
-
-.image--padding-bottom {
-  padding-bottom: $gridUnit * 12;
 }

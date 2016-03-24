@@ -19,3 +19,9 @@
 .partner__meta {
   padding-left: $gridUnit*3;
 }
+
+.partner__name {
+  display: inline-block;
+  line-height: 1.1;
+  border-bottom: $gridUnit / 2 solid $red;
+}
