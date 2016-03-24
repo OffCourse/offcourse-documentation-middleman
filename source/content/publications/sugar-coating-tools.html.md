@@ -1,5 +1,5 @@
 ---
-type: publications
+layout: post
 item: 3
 title: Sugar Coating Tools
 date: 2014-9-13 20:23:12 +0100

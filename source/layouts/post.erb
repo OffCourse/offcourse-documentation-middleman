@@ -1,0 +1,17 @@
+<%= partial "partials/head" %>
+
+<article class="layout__item">
+  <header class="layout__item-top">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
+  </header>
+  <div class="textbox">
+    <h1 class="textbar">
+      <%= current_page.data.title %>
+    </h1>
+    <%= yield %>
+  </div>
+  <footer class="layout__item-top">
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 0 }) %>
+  </footer>
+</article>
+<%= partial "partials/footer" %>

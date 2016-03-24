@@ -1,7 +1,9 @@
 <a href="
 <% 
   if reference.data.reference 
-    concat reference.data.reference.url; 
+    concat reference.data.reference.url
+  else
+    concat "publications/" + reference.slug + ".html"
   end
 %>
 ">
