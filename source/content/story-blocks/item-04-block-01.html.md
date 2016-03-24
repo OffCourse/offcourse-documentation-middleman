@@ -1,5 +1,5 @@
 ---
-title: Partners
+title: People
 date: 25-12-2015
 anchor: partners
 partners: 
@@ -7,22 +7,27 @@ partners:
   summery: 
   job: researcher and editor 
   url: https://www.linkedin.com/in/cevoostrum
+  img: charlotte.jpg
 - name: Jan Hein Hoogstad
   summery:
   job: project founder, lead front end developer and course coordinator
   url: https://www.linkedin.com/in/yeehaa
+  img: janhein.jpg
 - name: Marijn Koolen
   summery:
   job: project founder, lead back end developer and course coordinator
   url: https://www.linkedin.com/in/marijnkoolen
+  img: marijn.jpg
 - name: Reika Egawa-Chavers
   summery:
   job: program manager and junior developer
   url: https://www.linkedin.com/in/reikaegawachavers
+  img: reika.jpg
 - name: Robert-Jan Korteschiel
   summery:
   job: student assistant autumn ‘14 and ‘15 and junior developer
   url: https://www.linkedin.com/in/robert-jan-korteschiel-b6214147
+  img: robertjan.jpg
 - name: Greg
   summery:
   job: Cool guy

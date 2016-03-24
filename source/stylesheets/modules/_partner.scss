@@ -1,5 +1,22 @@
-.partner {
+.partner__a {
+  display: block;
   width: 100%;
-  border-bottom: $gridUnit/2 solid $black;
+}
+
+.partner {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
   margin: 0 $gridUnit * 3 $gridUnit * 3 0;
+}
+
+.partner__image {
+  display: block;
+  width: $gridUnit*15;
+  -webkit-filter: grayscale(100%);
+}
+
+.partner__meta {
+  width: 75%;
+  padding-left: $gridUnit*3;
 }

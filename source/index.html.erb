@@ -56,12 +56,15 @@ layout: main
   </article>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[3].data.partners %>
+    <a class="partner__a" href="<%= entity.url || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + entity.name %>">
     <div class="partner">
-      <a href="<%= entity.url || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + entity.name %>">
-        <h3 class="partner__name"><%= entity.name %></h3>
-        <p class="partner__job"><%= entity.job %></p>
-      </a>
-    </div> 
+        <img class="partner__image" src="./images/people/<%= entity.img %>" alt="">
+        <div class="partner__meta">
+          <h3 class="partner__name"><%= entity.name %></h3>
+          <p class="partner__job"><%= entity.job %></p>
+        </div>
+    </div>
+    </a>
     <% end %>
   </div>
 </div>
