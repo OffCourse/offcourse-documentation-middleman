@@ -24,6 +24,10 @@
   padding-bottom: $gridUnit *  9;
 }
 
+.layout__item-small {
+  max-width: 50*$gridUnit;
+}
+
 .layout__item--short {
   min-height: unset;
 }

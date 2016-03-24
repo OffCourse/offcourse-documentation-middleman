@@ -80,14 +80,6 @@ layout: main
     </div>
   </article>
   <div class="textbox">
-    <h3 class="references-title">Projects:</h3>
-    <% blog('projects').articles.each do |post| %>
-    <%= partial(:"partials/reference", :locals => { :reference => post })  %>
-    <% end %>
-    <h3 class="references-title">Publications:</h3>
-    <% blog('publications').articles.each do |post| %>
-    <%= partial(:"partials/reference", :locals => { :reference => post })  %>
-    <% end %>
+    <%= partial("partials/initiatives") %>
   </div>
-
 </div>
