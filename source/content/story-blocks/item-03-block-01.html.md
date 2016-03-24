@@ -6,15 +6,20 @@ anchor: explorations
 We have explored a few paths that we could take with Offcourse. 
 
 <br>
-<div class="github-button">
-  <a class="github-button" href="https://github.com/offcourse/offcourse-frontend" data-style="mega" aria-label="Watch offcourse/offcourse-frontend on GitHub">Watch on Github</a>
-</div>
 
 ## Current 
 
 Our second iteration is aiming more towards a flatter structure, while maintaining the core idea's. 
 
 [![Current Iteration](current-iteration.png)](http://staging.offcourse.io)
+
+<div class="github-button">
+  <a class="github-button" href="https://github.com/offcourse/offcourse-frontend" data-style="mega" aria-label="Watch offcourse/offcourse-frontend on GitHub">Watch on Github</a>
+</div>
+
+We're open source, so check us out on Github: 
+
+<br>
 
 
 ## Social
