@@ -5,6 +5,12 @@ $breakpoint-lg : 1000px;
 $breakpoint-xl : 1200px;
 $breakpoint-xxl : 1600px;
 
+@media (min-width: 0){
+  html {
+    font-size: 12px;
+  }
+}
+
 @media (min-width: $breakpoint-xs){
   html {
     font-size: 14px;

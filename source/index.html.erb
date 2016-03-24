@@ -45,14 +45,12 @@ layout: main
 <img id="<%= blog('blocks').articles[3].data.anchor %>" class="image--fullwidth image--padding-center brand-tertiary" src="./images/item-partners.svg" alt="">
 
 <div class="layout__item layout__item--padding-bottom">
-  <header class="layout__item-top">
+  <header>
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   </header>
-  <article class="layout__item-grid-content">
-    <div class="textbox">
-      <h1 class="textbar"><%= blog('blocks').articles[3].data.title %></h1>
-      <%= blog('blocks').articles[3].body %>
-    </div>
+  <article class="textbox">
+    <h1 class="textbar"><%= blog('blocks').articles[3].data.title %></h1>
+    <%= blog('blocks').articles[3].body %>
   </article>
   <div class="layout__item-partners">
     <% for entity in blog('blocks').articles[3].data.partners %>
