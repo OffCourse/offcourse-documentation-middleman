@@ -45,6 +45,11 @@
 
 .textbox .github-button {
   float: right;
+  margin-top: -34px;
+}
+
+.textbox .github-button + * {
+  margin-top: -34px;
 }
 
 // Textbox variants
