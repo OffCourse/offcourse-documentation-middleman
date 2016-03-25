@@ -20,7 +20,7 @@ partners:
   img: marijn.jpg
 - name: Reika Egawa-Chavers
   summery:
-  job: program manager and junior developer
+  job: project manager and junior developer
   url: https://www.linkedin.com/in/reikaegawachavers
   img: reika.jpg
 - name: Robert-Jan Korteschiel

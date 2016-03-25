@@ -16,8 +16,10 @@ layout: main
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
   </header>
-  <div class="textbox">
+  <div class="textbox textbox--padding-bottom-small">
     <h1 class="textbar"><%= blog('blocks').articles[1].data.title %></h1>
+  </div>
+  <div class="textbox">
     <% for entity in blog('blocks').articles[1].data.concepts %>
     <div class="feature">
       <div class="feature__meta feature__meta--fw">
@@ -36,7 +38,7 @@ layout: main
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 2 }) %>
   </header>
-  <article class="textbox">
+  <article class="textbox textbox--padding-bottom-small">
     <h1 class="textbar"><%= blog('blocks').articles[2].data.title %></h1>
     <%= blog('blocks').articles[2].body %>
   </article>
@@ -48,7 +50,7 @@ layout: main
   <header>
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   </header>
-  <article class="textbox">
+  <article class="textbox textbox--padding-bottom-small">
     <h1 class="textbar"><%= blog('blocks').articles[3].data.title %></h1>
     <%= blog('blocks').articles[3].body %>
   </article>
@@ -72,7 +74,7 @@ layout: main
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
   </header>
   <article class="layout__item-grid-content">
-    <div class="textbox">
+    <div class="textbox textbox--padding-bottom-small">
       <h1 class="textbar"><%= blog('blocks').articles[4].data.title %></h1>
       <%= blog('blocks').articles[4].body %>
     </div>
