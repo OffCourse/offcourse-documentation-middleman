@@ -5,13 +5,14 @@ layout: main
 
 <img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth brand-tertiary" src="./images/item-body-2.svg" alt="">
 
-<div class="layout__item layout__item--margin-bottom brand-tertiary">
-  <article class="textbox">
-    <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1>
-    <%= blog('blocks').articles[0].body %>
-  </article>
+<div class="layout__header">
+  <div class="layout__item layout__item--margin-bottom brand-tertiary">
+    <article class="textbox">
+      <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1>
+      <%= blog('blocks').articles[0].body %>
+    </article>
+  </div>
 </div>
-
 <div id="<%= blog('blocks').articles[1].data.anchor %>" class="layout__item layout__item--padding-bottom">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
