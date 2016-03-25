@@ -4,12 +4,12 @@
   padding: 0 $gridUnit * 3;
 }
 
-.textbox--padding-bottom-small {
-  padding: $gridUnit * 3;
+.textbox--padding-small {
+  padding: $gridUnit * 6 $gridUnit * 3;
 }
 
-.textbox--padding-bottom {
-  padding: 0 $gridUnit * 3 $gridUnit * 12 $gridUnit * 3;
+.textbox--padding-large {
+  padding: $gridUnit * 6 $gridUnit * 3 $gridUnit * 12 $gridUnit * 3;
 }
 
 // Textbox base-styling
