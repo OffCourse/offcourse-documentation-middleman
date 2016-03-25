@@ -10,6 +10,10 @@ html {
   outline: 0;
 }
 
+::-moz-selection {
+  background: $red;
+}
+
 ::selection {
   background: $red;
 }
