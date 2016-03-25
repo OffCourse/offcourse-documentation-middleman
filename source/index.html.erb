@@ -33,9 +33,9 @@ layout: main
   </div>
 </div>
 
-<img id="<%= blog('blocks').articles[2].data.anchor %>"class="image--fullwidth image--padding brand-tertiary" src="./images/item-body-4.svg" alt="">
+<img class="image--fullwidth image--padding brand-tertiary" src="./images/item-body-4.svg" alt="">
 
-<div class="layout__item layout__item--padding-bottom">
+<div id="<%= blog('blocks').articles[2].data.anchor %>" class="layout__item layout__item--padding-bottom">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 2 }) %>
   </header>
@@ -45,9 +45,9 @@ layout: main
   </article>
 </div>
 
-<img id="<%= blog('blocks').articles[3].data.anchor %>" class="image--fullwidth image--padding-center brand-tertiary" src="./images/item-partners.svg" alt="">
+<img class="image--fullwidth image--padding-center brand-tertiary" src="./images/item-partners.svg" alt="">
 
-<div class="layout__item layout__item--padding-bottom">
+<div id="<%= blog('blocks').articles[3].data.anchor %>" class="layout__item layout__item--padding-bottom">
   <header>
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   </header>
