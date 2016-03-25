@@ -47,13 +47,14 @@
   filter: grayscale(0%);
 }
 
-.textbox .github-button {
-  float: right;
-  margin-top: -34px;
+.textbox__github-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.textbox .github-button + * {
-  margin-top: -34px;
+
+.textbox__github-button {
+
 }
 
 // Textbox variants

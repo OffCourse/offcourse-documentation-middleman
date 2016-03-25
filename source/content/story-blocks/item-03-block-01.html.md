@@ -13,14 +13,14 @@ Our second iteration is aiming more towards a flatter structure, while maintaini
 
 [![Current Iteration](current-iteration.png)](http://staging.offcourse.io)
 
-<div class="github-button">
-  <a class="github-button" href="https://github.com/offcourse/offcourse-frontend" data-style="mega" aria-label="Watch offcourse/offcourse-frontend on GitHub">Watch on Github</a>
+<div class="textbox__github-container">
+  <p>We're open source, so check us out on Github:</p>
+  <div class="textbox__github-button">
+    <a class="github-button" href="https://github.com/offcourse/offcourse-frontend" data-style="mega" aria-label="Watch offcourse/offcourse-frontend on GitHub">Watch on Github</a>
+  </div>
 </div>
 
-We're open source, so check us out on Github: 
-
 <br>
-
 
 ## Social
 
