@@ -15,11 +15,15 @@
 // Textbox base-styling
 
 .textbox > p {
-  padding-bottom: $gridUnit * 1;
+  margin-bottom: $gridUnit * 1;
+}
+
+.textbox > .textbox__child--margin-bottom {
+  margin-bottom: $gridUnit * 3;
 }
 
 .textbox > ul {
-  padding-bottom: $gridUnit * 1;
+  margin-bottom: $gridUnit * 1;
   list-style: square;
   list-style-position: inside;
 }
