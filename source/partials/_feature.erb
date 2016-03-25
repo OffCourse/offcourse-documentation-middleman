@@ -1,17 +1,16 @@
-<a href="
 <% 
-  if reference.data.reference 
-    concat reference.data.reference.url
-  else
-    concat "publications/" + reference.slug + ".html"
-  end
+if reference.data.reference 
+  link = reference.data.reference.url
+else
+  link = "publications/" + reference.slug + ".html"
+end
 %>
-">
+
 <div onclick="" class="feature">
   <div class="feature__meta">
-    <h5 class="feature__title"><%= reference.data.title %></h5>
+    <a href="<%= link %>"><h5 class="feature__title"><%= reference.data.title %></h5></a>
     <p class="feature__summery"><%= reference.data.summery %></p>
   </div>
-  <div class="feature__button"> &#187; </div>
+  <a class="feature__button" href="<%= link %>">&#187; </a>
 </div>
 </a>
