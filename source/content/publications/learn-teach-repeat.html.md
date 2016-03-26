@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learn, Teach, Repeat - Joining the Offcourse Team"
+title: "Learn, Teach, Repeat"
 date: 2015-11-29 21:57:27 +0100
 authors: 
 - GregRV

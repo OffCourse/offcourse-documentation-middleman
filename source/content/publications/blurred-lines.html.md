@@ -41,6 +41,4 @@ Yet, the simple and deterministic programming culture of today is being replaced
 
 At first, human interaction had to be stripped down to its bare essentials in order for artificial intelligence and computer science to enact humanity in machines. Yet, today we’ve mastered the essentials and can add the complexities to it that make it human. We are ready to step away from software programs as the ideal and controlled versions of reality to machines that allow for complexity and the inevitability of uncertainty. The lines are blurred already. We should get ready for them to disappear. 
 
-&mdash; Charlotte van Oostrum ([@cevoostrum](https://www.linkedin.com/in/cevoostrum))
-
 *With thanks to Nishant "[@Rainypixels](http://rainypixels.com/)" Kothary, for filling in the gaps in my knowledge of programming languages and being an inspiring and insighful writing partner*

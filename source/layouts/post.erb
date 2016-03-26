@@ -4,12 +4,17 @@
 <article class="layout__item">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
   <div class="textbox">
-    <h1 class="textbar">
+    <h1 class="textbar textbar--margin-bottom">
       <%= current_page.data.title %>
     </h1>
     <%= yield %>
   </div>
-  <footer class="layout__item-top">
+
+  <footer class="post__footer">
+    <div class="post__meta">
+      <h4><%= current_page.data.authors[0] %></h4>
+      <time datetime="<%= current_page.data.date %>"><%= current_page.date.strftime('%e %b %Y') %></time>
+    </div>
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
   </footer>
 </article>
