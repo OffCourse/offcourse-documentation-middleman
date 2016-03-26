@@ -2,9 +2,11 @@
 layout: post
 item: 3
 title: Blurred Lines
-date: 2013-12-11 21:57:27 +0100
+date: 2014-06-24 21:57:27 +0100
 authors: 
 - Charlotte van Oostrum
+tags:
+- article
 images:
 summery: |
   Communication – machine or human – is never free of ambituity. As programming languages develop, ambiguity seems to be a prerequisite rather than an inconvenience. 

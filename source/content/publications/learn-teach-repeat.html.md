@@ -4,7 +4,8 @@ title: "Learn, Teach, Repeat - Joining the Offcourse Team"
 date: 2015-11-29 21:57:27 +0100
 authors: 
 - GregRV
-images: offcourse-livingroom.jpg
+images: 
+- offcourse-livingroom.jpg
 summery: |
   This past Summer I had the opportunity to meet and join the team behind Offcourse- an open source educational platform based out of Amsterdam.  
 url: "http://gregrv.github.io/eqex/learn-teach-repeat-joining-the-offcourse-team.html"

@@ -5,7 +5,10 @@ title: When All We Have Is A Hammer
 date: 2013-12-11 21:57:27 +0100
 authors: 
 - Jan Hein Hoogstad
+tags:
+- article
 images:
+- nails.jpg
 summery: |
   Software is a blind spot for the humanities. Our discipline is deeply invested in self-reflection, but we hardly ever think about the digital tools that we use.
 url: 
