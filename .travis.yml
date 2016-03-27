@@ -6,7 +6,6 @@ install:
 script: 
 - bundle exec middleman build
 - sh deploy.sh
-E2ul0vfKuZOM45O6+TdJA2+N5ulS+GOn4Qc78Me3MC9eK0XFifkdaJpfJFG4ffEWA+sAtrBPPBP0X8rbJZRYBh6Iun1jUeKUkT/4mYNMyGIpgWayobI="
 env:
   global:
   - GH_REF: github.com/<your name>/<your repo>.git
