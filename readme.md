@@ -13,12 +13,12 @@ To install:
 bundle install
 ```
 
-To run
+To run:
 ``` 
 bundle exec middleman server
 ```
 
-To deploy
+To deploy:
 ```
 sh deploy.sh
 ```
