@@ -8,4 +8,3 @@ git init
 git add -A
 git commit -m "deploy"
 git push -f --quiet "https://${GH_TOKEN}@github.com/offcourse/offcourse-info.git" master:gh-pages > /dev/null 2>&1
-git push -u origin gh-pages -f
