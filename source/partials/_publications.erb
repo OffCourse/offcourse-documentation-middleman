@@ -1,4 +1,10 @@
 <h3 class="initiatives__title">Publications:</h3>
 <% blog('publications').articles.each do |post| %>
-<%= partial(:"partials/feature", :locals => { :reference => post })  %>
+<% if search_query != 0 %>
+<% if search_query == post.data.authors[0] %>
+  <%= partial(:"partials/feature", :locals => { :reference => post })  %>
+<% end %>
+<% else %>
+  <%= partial(:"partials/feature", :locals => { :reference => post })  %>
+<% end %>
 <% end %>

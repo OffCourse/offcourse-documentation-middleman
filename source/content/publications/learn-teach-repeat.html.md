@@ -3,7 +3,7 @@ layout: post
 title: "Learn, Teach, Repeat"
 date: 2015-11-29 21:57:27 +0100
 authors: 
-- GregRV
+- Greg Rodriguez Varias
 images: 
 - offcourse-livingroom.jpg
 summery: |

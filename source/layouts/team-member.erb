@@ -1,5 +1,5 @@
 <%= partial "partials/head" %>
-<img class="image--fullwidth brand-tertiary" src="../images/item-body-3.svg" alt="">
+<img class="image--fullwidth image--padding-center brand-tertiary" src="../images/item-partners.svg" alt="">
 
 <article class="layout__item">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
@@ -32,7 +32,7 @@
 
   <footer class="post__footer">
     <div class="textbox">
-      <%= partial("partials/publications") %>
+      <%= partial("partials/publications", :locals => { :search_query => current_page.data.name }) %>
     </div>
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   </footer>

@@ -68,6 +68,6 @@ layout: main
   </article>
   <div class="textbox">
     <%= partial("partials/projects") %>
-    <%= partial("partials/publications") %>
+    <%= partial("partials/publications", :locals => { :search_query => 0 }) %>
   </div>
 </div>
