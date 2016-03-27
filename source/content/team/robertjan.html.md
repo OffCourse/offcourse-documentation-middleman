@@ -1,6 +1,6 @@
 ---
 layout: team-member
-title: Offcouse team member - RJ
+title: Offcouse - Team
 date: 25-12-2013
 name: Robert-Jan Korteschiel
 summery:

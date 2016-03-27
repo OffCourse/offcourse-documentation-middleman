@@ -1,6 +1,6 @@
 ---
 layout: team-member
-title: Offcouse team member - Charlotte
+title: Offcouse - Team
 date: 25-12-2013
 name: Charlotte van Oostrum
 summery: 

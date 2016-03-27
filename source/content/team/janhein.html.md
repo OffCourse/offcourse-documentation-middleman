@@ -1,6 +1,6 @@
 ---
 layout: team-member
-title: Offcouse team member - JH
+title: Offcouse - Team
 date: 25-12-2013
 name: Jan Hein Hoogstad
 summery:

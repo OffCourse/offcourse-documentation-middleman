@@ -1,6 +1,6 @@
 ---
 layout: team-member
-title: Offcouse team member - Marijn
+title: Offcouse - Team
 date: 25-12-2013
 name: Marijn Koolen
 summery:

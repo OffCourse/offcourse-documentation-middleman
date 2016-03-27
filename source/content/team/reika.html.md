@@ -1,6 +1,6 @@
 ---
 layout: team-member
-title: Offcouse team member - Reika
+title: Offcouse - Team
 date: 25-12-2013
 name: Reika Egawa-Chavers
 summery:

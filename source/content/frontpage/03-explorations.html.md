@@ -11,7 +11,7 @@ We have explored a few paths that we could take with Offcourse.
 
 Our second iteration is aiming more towards a flatter structure, while maintaining the core idea's. 
 
-[![Current Iteration](current-iteration.png)](http://staging.offcourse.io)
+[![Current Iteration](iteration-current.png)](http://staging.offcourse.io)
 
 <div class="textbox__github-container">
   <p>We're open source, so check us out on Github:</p>
@@ -26,13 +26,13 @@ Our second iteration is aiming more towards a flatter structure, while maintaini
 
 The second approach was to let another team take a crack at it. They focussed on the social part of learning.
 
-[![Lively Iteration](iteration-lifely.png)](http://study.offcourse.io)
+[![Study Iteration](iteration-study.png)](http://study.offcourse.io)
 
 ## Structure
 
 The first approach we took was structuring the content with waypoints and checkpoints. You can explore it here: 
 
-[![First Iteration](offcourse-first.png)](http://old.offcourse.io)
+[![First Iteration](iteration-old.png)](http://old.offcourse.io)
 
 
 
