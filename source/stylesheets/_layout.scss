@@ -21,6 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  width: 66*$gridUnit;
   max-width: 66*$gridUnit;
   padding-top: $gridUnit * 3;
   padding-bottom: $gridUnit * 3;
@@ -43,6 +44,6 @@
   color: white;
 }
 
-.layout__item-partners {
+.layout__item-team {
   padding: 0 $gridUnit * 3; 
 }

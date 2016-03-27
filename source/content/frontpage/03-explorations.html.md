@@ -30,7 +30,7 @@ The second approach was to let another team take a crack at it. They focussed on
 
 ## Structure
 
-The first approach we took was structuring the content with a waypoint and checkpoints. You can explore it here: 
+The first approach we took was structuring the content with waypoints and checkpoints. You can explore it here: 
 
 [![First Iteration](offcourse-first.png)](http://old.offcourse.io)
 

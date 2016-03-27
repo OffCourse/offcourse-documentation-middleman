@@ -1,5 +1,5 @@
 <%= partial "partials/head" %>
-<img id="<%= blog('blocks').articles[0].data.anchor %>"class="image--fullwidth brand-tertiary" src="../images/item-body-3.svg" alt="">
+<img class="image--fullwidth brand-tertiary" src="../images/item-body-3.svg" alt="">
 
 <article class="layout__item">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
@@ -12,7 +12,7 @@
 
   <footer class="post__footer">
     <div class="post__meta">
-      <h4><%= current_page.data.authors[0] %></h4>
+      <h4><%= current_page.data %></h4>
       <time datetime="<%= current_page.data.date %>"><%= current_page.date.strftime('%e %b %Y') %></time>
     </div>
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>

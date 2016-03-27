@@ -1,0 +1,33 @@
+<%= partial "partials/head" %>
+<img class="image--fullwidth brand-tertiary" src="../images/item-body-3.svg" alt="">
+
+<article class="layout__item">
+  <div class="textbox">
+    <h1 class="textbar textbar--margin-bottom">
+      <%= current_page.data.name %>
+    </h1>
+
+    <img class="team__image" src="/images/people/<%= current_page.data.img %>" alt="">
+
+    <h2>Job: </h2>
+    <p><%= current_page.data.job %></p>
+
+    <% if current_page.data.summery %>
+    <h2>Summery:</h2> 
+    <p><%= current_page.data.summery %></p>
+    <% end %>
+
+    <h2>Joined: </h2>
+    <p><%= current_page.data.date %></p>
+    
+    <h2>Links: </h2>
+    <a class="team__a" href="<%= current_page.data.linkedin || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + current_page.data.name %>">
+      LinkedIn
+    </a>
+    
+    <h2>Story:</h2>
+    <%= yield %>
+  </div>
+</article>
+
+<%= partial "partials/footer" %>

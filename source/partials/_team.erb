@@ -1,0 +1,14 @@
+<div class="layout__item-team">
+  <% for person in blog('team').articles %>
+  <div class="team">
+      <img class="team__image" src="./images/people/<%= person.data.img %>" alt="">
+      <div class="team__meta">
+        <a class="team__a" href="<%= person.data.linkedin || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + person.data.name %>">
+          <h3 class="team__name"><%= person.data.name %></h3>
+        </a>
+        <p class="team__job"><%= person.data.job %></p>
+      </div>
+  </div>
+<% end %>
+</div>
+

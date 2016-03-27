@@ -1,11 +1,11 @@
-.partner {
+.team {
   display: flex;
   align-items: flex-start;
   width: 100%;
   margin: 0 $gridUnit * 3 $gridUnit * 3 0;
 }
 
-.partner__image {
+.team__image {
   display: block;
   width: $gridUnit*15;
   flex-shrink: 0;
@@ -16,16 +16,16 @@
   filter: grayscale(100%);
 }
 
-.partner__meta {
+.team__meta {
   padding-left: $gridUnit*3;
 }
 
-.partner__name {
+.team__name {
   display: inline-block;
   line-height: 1.1;
   border-bottom: $gridUnit / 2 solid $red;
 }
 
-.partner__name:hover {
+.team__name:hover {
   border-bottom: $gridUnit / 2 solid $black;
 }

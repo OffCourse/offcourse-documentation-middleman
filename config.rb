@@ -47,9 +47,9 @@ end
 # Activate the blog gems for both the story and the articles
 
 activate :blog do |blog|
-  blog.name = "blocks"
-  blog.sources = "content/story-blocks/{title}.html"
-  blog.permalink = "story/{title}.html"
+  blog.name = "frontpage"
+  blog.sources = "content/frontpage/{title}.html"
+  blog.permalink = "frontpage/{title}.html"
 end
 
 activate :blog do |blog|
@@ -62,4 +62,10 @@ activate :blog do |blog|
   blog.name = "projects"
   blog.sources = "content/projects/{title}.html"
   blog.permalink = "projects/{title}.html"
+end
+
+activate :blog do |blog|
+  blog.name = "team"
+  blog.sources = "content/team/{title}.html"
+  blog.permalink = "team/{title}.html"
 end
