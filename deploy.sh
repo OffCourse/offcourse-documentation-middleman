@@ -1,6 +1,6 @@
 bundle exec middleman build
 cp .nojekyll build/.nojekyll
-cp CNAME build/CNAME
+echo staging-info.offcourse.io > build/CNAME
 cd build
 git init
 git remote add origin git@github.com:offcourse/offcourse-info.git
