@@ -1,4 +1,5 @@
 ---
+layout: post
 title: People
 date: 25-12-2015
 anchor: partners

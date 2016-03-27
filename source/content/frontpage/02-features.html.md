@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Features
 date: 29-12-2015
 anchor: features

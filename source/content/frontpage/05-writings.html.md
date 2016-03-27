@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Writings
 date: 23-12-2015
 anchor: writings

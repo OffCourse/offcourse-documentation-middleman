@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Explorations
 date: 27-12-2015
 anchor: explorations

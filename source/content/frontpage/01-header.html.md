@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Offcourse
 date: 31-12-2015
 anchor: offcourse

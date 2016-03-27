@@ -16,11 +16,13 @@
 
   <footer class="post__footer">
     <div class="post__meta">
+    <% if current_page.data.authors %>
       <% for team_member in blog('team').articles %>
         <% if team_member.data.name == current_page.data.authors[0] %>
           <%= partial("partials/team-member", :locals => { :person => team_member, :extra_info => 0 }) %>
         <% end %> 
       <% end %> 
+    <% end %> 
     </div>
 
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
