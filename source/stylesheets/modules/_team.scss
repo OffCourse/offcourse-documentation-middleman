@@ -5,7 +5,7 @@
   margin: 0 $gridUnit * 3 $gridUnit * 3 0;
 }
 
-.team__image {
+.team .team__image {
   display: block;
   width: $gridUnit*15;
   flex-shrink: 0;
@@ -24,6 +24,10 @@
   display: inline-block;
   line-height: 1.1;
   border-bottom: $gridUnit / 2 solid $red;
+}
+
+.team__name--margin {
+  margin-bottom: $gridUnit * 2;
 }
 
 .team__name:hover {

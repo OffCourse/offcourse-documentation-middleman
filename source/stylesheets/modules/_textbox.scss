@@ -4,6 +4,10 @@
   padding: 0 $gridUnit * 3;
 }
 
+.textbox--padding-top {
+  padding: $gridUnit * 6 $gridUnit * 3 0 $gridUnit * 3;
+}
+
 .textbox--padding-small {
   padding: $gridUnit * 6 $gridUnit * 3;
 }
@@ -47,31 +51,19 @@
   filter: grayscale(0%);
 }
 
+.projects__title {
+  margin: $gridUnit * 9 0 $gridUnit * 3 0;
+}
+
+.publications__title {
+  margin: $gridUnit * 9 0 $gridUnit * 3 0;
+}
+
+// Annoying corner cases
+
 .textbox__github-container {
   display: flex;
   justify-content: space-between;
   margin-top: -$gridUnit * 2;
   overflow: hidden;
 }
-
-
-.textbox__github-button {
-
-}
-
-// Textbox variants
-
-.textbox--accent > p:first-of-type{
-  font-family: $titleFont;
-  padding-bottom: $gridUnit * 3;
-}
-
-.textbox--with-emph-links a {
-  display: inline-block;
-  padding: 0 $gridUnit;
-
-  background: $baseColor;
-  color: $inverseColor;
-}
-
-

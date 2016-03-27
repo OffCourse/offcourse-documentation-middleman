@@ -1,0 +1,20 @@
+ <div class="team">
+  <img class="team__image" src="/images/people/<%= person.data.img %>" alt="">
+  <div class="team__meta">
+    <% if extra_info > 0 %>
+    <h3 class="team__name team__name--margin"><%= person.data.name %></h3>
+    <p class="team__job"><%= person.data.job %></p>
+    <p>Joined: <time><%= person.data.date %></time></p>
+    <% else %>
+    <a class="team__a" href="<%= person.data.linkedin || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + person.data.name %>">
+      <h3 class="team__name"><%= person.data.name %></h3>
+    </a>
+    <p class="team__job"><%= person.data.job %></p>
+    <% end %>
+    <% if extra_info > 1 %>
+    <p>Links: <a class="team__a" href="<%= person.data.linkedin || 'https://www.linkedin.com/vsearch/f?type=all&keywords=' + person.data.name %>">
+      LinkedIn
+    </a></p>
+    <% end %>
+  </div>
+</div>
