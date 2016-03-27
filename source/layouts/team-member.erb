@@ -2,6 +2,7 @@
 <img class="image--fullwidth brand-tertiary" src="../images/item-body-3.svg" alt="">
 
 <article class="layout__item">
+  <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   <div class="textbox">
     <h1 class="textbar textbar--margin-bottom">
       <%= current_page.data.name %>
@@ -28,6 +29,16 @@
     <h2>Story:</h2>
     <%= yield %>
   </div>
+
+  <footer class="post__footer">
+    <div class="textbox">
+      <%= partial("partials/publications") %>
+    </div>
+    <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
+  </footer>
+
 </article>
+
+
 
 <%= partial "partials/footer" %>

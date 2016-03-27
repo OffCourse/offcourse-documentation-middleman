@@ -62,13 +62,12 @@ layout: main
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
   </header>
-  <article class="layout__item-grid-content">
-    <div class="textbox textbox--padding-small">
-      <h1 class="textbar"><%= blog('frontpage').articles[4].data.title %></h1>
-      <%= blog('frontpage').articles[4].body %>
-    </div>
+  <article class="textbox textbox--padding-small">
+    <h1 class="textbar"><%= blog('frontpage').articles[4].data.title %></h1>
+    <%= blog('frontpage').articles[4].body %>
   </article>
   <div class="textbox">
-    <%= partial("partials/initiatives") %>
+    <%= partial("partials/projects") %>
+    <%= partial("partials/publications") %>
   </div>
 </div>

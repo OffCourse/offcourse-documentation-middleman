@@ -1,0 +1,4 @@
+<h3 class="initiatives__title">Projects:</h3>
+<% blog('projects').articles.each do |post| %>
+<%= partial(:"partials/feature", :locals => { :reference => post })  %>
+<% end %>
