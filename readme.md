@@ -4,7 +4,7 @@ This is the repository for the Offcourse informational site. With this site we h
 
 The site is running at [Offcourse.io](offcourse.io)
 
-This site build automaticaly to staging:
+This site builds automaticaly to staging:
 [![Build Status](https://travis-ci.org/OffCourse/offcourse-info.svg?branch=master)](https://travis-ci.org/OffCourse/offcourse-info)
 
 ## Technical info
