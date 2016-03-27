@@ -4,7 +4,6 @@ rvm:
 install: 
 - bundle install
 script: 
-- bundle exec middleman build
 - sh deploy.sh
 env:
   global:
