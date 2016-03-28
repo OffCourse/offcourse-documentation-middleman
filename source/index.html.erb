@@ -6,39 +6,37 @@ layout: main
 <img id="<%= blog('frontpage').articles[0].data.anchor %>"class="image--fullwidth brand-tertiary" src="./images/fw-gears.svg" alt="">
 
 <div class="layout__item-fw-container brand-tertiary">
-  <article class="layout__item layout__item--margin-bottom">
+  <article class="layout__item layout__item--padding-t-xxs layout__item--padding-b-m">
     <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1>
     <div class="markdown"><%= blog('frontpage').articles[0].body %></div>
   </article>
 </div>
 
-<div id="<%= blog('frontpage').articles[1].data.anchor %>" class="layout__item layout__item--padding-bottom">
+<div id="<%= blog('frontpage').articles[1].data.anchor %>" class="layout__item layout__item--padding-t-m layout__item--padding-bottom">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
-  <div class="textbox textbox--padding-small">
+  <div class="layout__item--padding-t-xxs layout__item--padding-b-xxs">
     <h1 class="textbar"><%= blog('frontpage').articles[1].data.title %></h1>
   </div>
-  <div class="textbox">
-    <% for entity in blog('frontpage').articles[1].data.concepts %>
-    <div class="feature">
-      <div class="feature__meta feature__meta--fw">
-        <h3 class="feature__title"><%= entity.concept %></h3>
-        <p class="feature__job"><%= entity.summery %></p>
-        <p class="feature__name"><%= entity.feature %></p>
-      </div>
-    </div> 
-    <% end %>
+  <% for entity in blog('frontpage').articles[1].data.concepts %>
+  <div class="feature">
+    <div class="feature__meta feature__meta--fw">
+      <h3 class="feature__title"><%= entity.concept %></h3>
+      <p class="feature__job"><%= entity.summery %></p>
+      <p class="feature__name"><%= entity.feature %></p>
+    </div>
   </div>
+  <% end %>
 </div>
 
-<img class="image--fullwidth image--padding brand-tertiary" src="./images/fw-electronics.svg" alt="">
+<img class="image--fullwidth brand-tertiary layout__item--padding-t-s layout__item--padding-b-s " src="./images/fw-electronics.svg" alt="">
 
 <div id="<%= blog('frontpage').articles[2].data.anchor %>" class="layout__item layout__item--padding-bottom">
   <header class="layout__item-top">
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 2 }) %>
   </header>
-  <article class="textbox textbox--padding-small">
+  <article class="layout__item--padding-t-xs">
     <h1 class="textbar"><%= blog('frontpage').articles[2].data.title %></h1>
-    <%= blog('frontpage').articles[2].body %>
+    <div class="markdown"><%= blog('frontpage').articles[2].body %></div>
   </article>
 </div>
 
