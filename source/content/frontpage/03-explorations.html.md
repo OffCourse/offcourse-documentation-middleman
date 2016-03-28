@@ -2,7 +2,7 @@
 layout: post
 title: Explorations
 date: 27-12-2015
-anchor: explorations
+anchor: Explorations
 ---
 We have explored a few paths that we could take with Offcourse. 
 

@@ -2,7 +2,7 @@
 layout: post
 title: Features
 date: 29-12-2015
-anchor: features
+anchor: Features
 concepts: 
 - concept: Curate the Web 
   summery: |

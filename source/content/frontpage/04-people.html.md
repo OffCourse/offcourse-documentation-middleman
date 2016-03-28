@@ -1,7 +1,7 @@
 ---
 layout: post
-title: People
+title: Team
 date: 25-12-2015
-anchor: partners
+anchor: Team
 ---
 Meet the people currently involved in Offcourse.
