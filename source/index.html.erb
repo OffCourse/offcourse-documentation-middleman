@@ -57,8 +57,6 @@ layout: main
     <h1 class="textbar"><%= blog('frontpage').articles[4].data.title %></h1>
     <%= blog('frontpage').articles[4].body %>
   </article>
-  <div class="layout__item-fw">
-    <%= partial("partials/projects") %>
-    <%= partial("partials/publications", :locals => { :search_query => 0 }) %>
-  </div>
+  <%= partial("partials/projects") %>
+  <%= partial("partials/publications", :locals => { :search_query => 0 }) %>
 </div>
