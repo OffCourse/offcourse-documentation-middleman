@@ -21,6 +21,8 @@
   filter: grayscale(0%);
 }
 
+// Fix this
+
 .markdown a > :not(img) {
   border-bottom: solid 2px $red;
 }

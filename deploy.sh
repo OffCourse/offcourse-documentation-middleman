@@ -6,8 +6,6 @@ then
   GH_REF="github.com/offcourse/offcourse-info.git"
 fi
 
-echo $GH_REF
-
 cp .nojekyll build/.nojekyll
 echo info-staging.offcourse.io > build/CNAME
 cd build
