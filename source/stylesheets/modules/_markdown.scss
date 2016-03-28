@@ -21,11 +21,11 @@
   filter: grayscale(0%);
 }
 
-.markdown a {
+.markdown a :not(img) {
   // border-bottom: solid 2px $red;
 }
 
-.markdown a:hover {
+.markdown a:hover :not(img) {
   // border-bottom: solid 2px $black;
 }
 
