@@ -5,18 +5,15 @@ layout: main
 
 <img id="<%= blog('frontpage').articles[0].data.anchor %>"class="image--fullwidth brand-tertiary" src="./images/fw-gears.svg" alt="">
 
-<div class="layout__header">
-  <div class="layout__item layout__item--margin-bottom brand-tertiary">
-    <article class="textbox">
-      <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1>
-      <%= blog('frontpage').articles[0].body %>
-    </article>
-  </div>
+<div class="layout__item-fw-container brand-tertiary">
+  <article class="layout__item layout__item--margin-bottom">
+    <h1 class="textbar textbar--big textbar--margin-bottom">Offcourse_</h1>
+    <div class="markdown"><%= blog('frontpage').articles[0].body %></div>
+  </article>
 </div>
+
 <div id="<%= blog('frontpage').articles[1].data.anchor %>" class="layout__item layout__item--padding-bottom">
-  <header class="layout__item-top">
-    <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
-  </header>
+  <%= partial("partials/navigation", :locals => { :which_is_link_active => 1 }) %>
   <div class="textbox textbox--padding-small">
     <h1 class="textbar"><%= blog('frontpage').articles[1].data.title %></h1>
   </div>

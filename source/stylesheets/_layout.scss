@@ -2,28 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: $lightgray;
 }
 
-.layout__header {
+.layout__item-fw-container {
   display: flex;
   justify-content: center;
   width: 100%;
   margin-bottom: $gridUnit * 9;
-  background: $red;
-}
-
-.layout__header-container {
-  max-width: 66 * $gridUnit;
 }
 
 .layout__item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  max-width: 66*$gridUnit;
-  padding-top: $gridUnit * 3;
-  padding-bottom: $gridUnit * 3;
+  max-width: 60*$gridUnit;
+  padding: $gridUnit * 3 0;
 }
 
 .layout__item--padding-bottom {
@@ -35,12 +28,7 @@
 }
 
 .layout__footer {
-  display: flex;
-  justify-content: center;
-  width: 100%;
   padding: $gridUnit * 9 0;
-  background: black;
-  color: white;
 }
 
 .layout__item-team {
