@@ -1,11 +1,11 @@
-echo "The current branch is:  $TRAVIS_BRANCH   "
+printf "The current branch is:  $TRAVIS_BRANCH \n"
 if [ "$TRAVIS_BRANCH" = "master" ]
 then
-  echo "Pushing to staging!!!"
+  printf "Pushing to staging \n"
   export GH_REF="github.com/offcourse/offcourse-info.git"
 elif [ "$TRAVIS_BRANCH" = "production" ]
 then
-  echo "Pushing to production!!!"
+  printf "Pushing to production \n"
   GH_REF = "github.com/offcourse/offcourse-info.git"
 fi
 
