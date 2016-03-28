@@ -1,11 +1,7 @@
 // Markdown base-styling
 
-.markdown > p {
+.markdown p {
   margin-bottom: $gridUnit * 1;
-}
-
-.markdown > .textbox__child--margin-bottom {
-  margin-bottom: $gridUnit * 3;
 }
 
 .markdown > ul {
