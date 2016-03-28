@@ -1,3 +1,14 @@
+echo "The current branch is:  ${TRAVIS_BRANCH}   "
+if [ $TRAVIS_BRANCH -eq "master"]
+then
+  echo "Pushing to staging!!!"
+  GH_REF = "github.com/offcourse/offcourse-info.git"
+elif [ $TRAVIS_BRANCH -eq "production" ]
+then
+  echo "Pushing to production!!!"
+  GH_REF = "github.com/offcourse/offcourse-info.git"
+fi
+
 cp .nojekyll build/.nojekyll
 echo info-staging.offcourse.io > build/CNAME
 cd build
