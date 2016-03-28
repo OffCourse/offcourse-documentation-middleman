@@ -1,9 +1,9 @@
 if [ $TRAVIS_BRANCH = "master" ]
 then
-  export $GH_REF="github.com/offcourse/offcourse-info.git"
+  set $GH_REF="github.com/offcourse/offcourse-info.git"
 elif [ $TRAVIS_BRANCH = "production" ]
 then
-  export $GH_REF="github.com/offcourse/offcourse-info.git"
+  set $GH_REF="github.com/offcourse/offcourse-info.git"
 fi
 
 cp .nojekyll build/.nojekyll

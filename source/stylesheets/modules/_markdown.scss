@@ -21,14 +21,13 @@
   filter: grayscale(0%);
 }
 
-.markdown a :not(img) {
-  // border-bottom: solid 2px $red;
+.markdown a > :not(img) {
+  border-bottom: solid 2px $red;
 }
 
-.markdown a:hover :not(img) {
-  // border-bottom: solid 2px $black;
+.markdown a:hover ::not(img) {
+  border-bottom: solid 2px $black;
 }
-
 
 // Markdown with classes (HTML inside .md)
 
