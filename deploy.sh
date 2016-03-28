@@ -15,6 +15,10 @@ cd build
 git init
 git config user.name "Zaturrby"
 git config user.email "rjkorteschiel@gmail.com"
+git status
 git add -A
+git status
 git commit -m "deploy"
+git status
 git push -f --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+git status
