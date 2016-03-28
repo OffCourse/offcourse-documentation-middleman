@@ -3,7 +3,11 @@ $breakpoint-sm : 600px;
 $breakpoint-md : 800px;
 $breakpoint-lg : 1000px;
 $breakpoint-xl : 1200px;
-$breakpoint-xxl : 1600px;
+$breakpoint-xxl : 1400px;
+$breakpoint-xxxl : 1600px;
+$breakpoint-2k : 2000px;
+$breakpoint-3k : 3000px;
+$breakpoint-4k : 4000px;
 
 @media (min-width: 0){
   html {
@@ -44,5 +48,29 @@ $breakpoint-xxl : 1600px;
 @media (min-width: $breakpoint-xxl){
   html {
     font-size: 26px;
+  }
+}
+
+@media (min-width: $breakpoint-xxxl){
+  html {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: $breakpoint-2k){
+  html {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: $breakpoint-3k){
+  html {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: $breakpoint-4k){
+  html {
+    font-size: 72px;
   }
 }
