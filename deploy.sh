@@ -1,10 +1,12 @@
 if [ $TRAVIS_BRANCH = "master" ]
 then
-  set $GH_REF="github.com/offcourse/offcourse-info.git"
+  GH_REF="github.com/offcourse/offcourse-info.git"
 elif [ $TRAVIS_BRANCH = "production" ]
 then
-  set $GH_REF="github.com/offcourse/offcourse-info.git"
+  GH_REF="github.com/offcourse/offcourse-info.git"
 fi
+
+echo $GH_REF
 
 cp .nojekyll build/.nojekyll
 echo info-staging.offcourse.io > build/CNAME
