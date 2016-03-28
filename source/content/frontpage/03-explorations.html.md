@@ -14,9 +14,9 @@ Our second iteration is aiming more towards a flatter structure, while maintaini
 
 [![Current Iteration](iteration-current.png)](http://staging.offcourse.io)
 
-<div class="textbox__github-container">
+<div class="markdown__github-container">
   <p>We're open source, so check us out on Github:</p>
-  <div class="textbox__github-button">
+  <div class="markdown__github-button">
     <a class="github-button" href="https://github.com/offcourse/offcourse-frontend" data-style="mega" aria-label="Watch offcourse/offcourse-frontend on GitHub">Watch on Github</a>
   </div>
 </div>

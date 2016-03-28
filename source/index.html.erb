@@ -38,9 +38,9 @@ layout: main
   </article>
 </div>
 
-<img class="layout__item-fw brand-tertiary layout__item--padding-t-s layout__item--padding-b-s layout__item--padding-lr-s" src="./images/fw-people.svg" alt="">
+<img class="layout__item-fw layout__item--padding-t-s layout__item--padding-b-s layout__item--padding-lr-s brand-tertiary" src="./images/fw-people.svg" alt="">
 
-<div id="<%= blog('frontpage').articles[3].data.anchor %>" class="layout__item layout__item--padding-b-xl">
+<div id="<%= blog('frontpage').articles[3].data.anchor %>" class="layout__item layout__item--padding-b-xs">
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 3 }) %>
   <article class="layout__item-fw layout__item--padding-b-xs">
     <h1 class="textbar"><%= blog('frontpage').articles[3].data.title %></h1>

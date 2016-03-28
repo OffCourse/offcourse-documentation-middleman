@@ -1,20 +1,20 @@
 <%= partial "partials/head" %>
-<img class="image--fullwidth brand-tertiary" src="../images/fw-books.svg" alt="">
+<img class="layout__item-fw brand-tertiary" src="../images/fw-books.svg" alt="">
 <article class="layout__item">
+  
   <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
-  <div class="textbox">
-    <h1 class="textbar textbar--margin-bottom">
-      <%= current_page.data.title %>
-    </h1>
-    <br>
-    <time datetime="<%= current_page.data.date %>"><%= current_page.date.strftime('%e %b %Y') %></time>
-    <br>
-    <br>
-    <%= yield %>
-  </div>
+  
+  <h1 class="textbar textbar--margin-bottom">
+    <%= current_page.data.title %>
+  </h1>
+  <br>
+  <time datetime="<%= current_page.data.date %>"><%= current_page.date.strftime('%e %b %Y') %></time>
+  <br>
+  <br>
 
-  <footer class="post__footer">
-    <div class="post__meta">
+  <div class="markdown"><%= yield %></div>
+
+  <footer class="layout__item-fw layout__item--padding-t-s">
     <% if current_page.data.authors %>
       <% for team_member in blog('team').articles %>
         <% if team_member.data.name == current_page.data.authors[0] %>
@@ -22,9 +22,10 @@
         <% end %> 
       <% end %> 
     <% end %> 
-    </div>
 
     <%= partial("partials/navigation", :locals => { :which_is_link_active => 4 }) %>
+  
   </footer>
 </article>
+
 <%= partial "partials/footer" %>
