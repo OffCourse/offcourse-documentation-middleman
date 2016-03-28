@@ -21,6 +21,10 @@
   filter: grayscale(0%);
 }
 
+.markdown a {
+  border-bottom: solid 2px $red;
+}
+
 // Markdown with classes (HTML inside .md)
 
 .markdown__github-container {
