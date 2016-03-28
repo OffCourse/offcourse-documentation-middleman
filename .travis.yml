@@ -5,7 +5,7 @@ install:
 - bundle install
 script:
 - bundle exec middleman build
-- deploy.sh
+- sh deploy.sh
 deploy:
   provider: script
   script: deploy.sh
