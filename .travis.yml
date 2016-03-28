@@ -3,8 +3,14 @@ rvm:
   - 2.2.0
 install: 
 - bundle install
-script: 
-- sh deploy.sh
+build:
+- bundle exec middleman build
+deploy:
+  provider: script
+  script: deploy.sh
+  on:
+    branch: master 
+    condition: $GH_REF = github.com/offcourse/offcourse-info.git
 env:
   global:
   - secure: "izPlWscFUoUzycvdzbj37jauoQs7TkLChZglYyfis4BXb8m7J7/7D5hOSKOuK/Nx5KMqv571S6UKpLfaHzZ6RYUk530PgBD9Ux76/VzbHqzpSyQOvsMBMMqz43EcJelAzPkA8JWWvQSD+zrFdLmHATPXfgEGt0YdbHcH+z3v0q4Gi5UWrtyfwnVUlzUst4YOpqsFSyVEUxpcFtekCYjV/FklXYDvETkOAGkOPl3LPQRl3hwXXrsUWNYon5fM4t56KgeiE0KYCk96IBQ5qm2eE8PaZ0/ALgFP1SuDIng55KxqHkAyQ5/LerPnbo10dclhkske6RxGxFrzM2EtcCK0kDvHGfON/+YpEULoYt403teZY8QMN6HY7HxY+PZHhvgw2yHQ6PIXYnfvELGYFwYE1YwRvorJ/8gML6xsYxpk+q7qQWqkSZO+EOa7nV4mQHraLNB0HYn3lvocnWP7e79WgzdF05QkGWipke1LiFcYXAiDWEI7tyAfAIVNQhAHmR9toOV5w4+6xZl/KVIMaqIRpyR2Xc1CsAoqPAJTFlT9ak/QaT54t+LRodKWE2ul0vfKuZOM45O6+TdJA2+N5ulS+GOn4Qc78Me3MC9eK0XFifkdaJpfJFG4ffEWA+sAtrBPPBP0X8rbJZRYBh6Iun1jUeKUkT/4mYNMyGIpgWayobI="
