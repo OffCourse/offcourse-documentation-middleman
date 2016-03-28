@@ -3,7 +3,7 @@ rvm:
   - 2.2.0
 install: 
 - bundle install
-build:
+script:
 - bundle exec middleman build
 deploy:
   provider: script
