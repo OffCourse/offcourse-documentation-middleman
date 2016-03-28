@@ -17,7 +17,7 @@ Our second iteration is aiming more towards a flatter structure, while maintaini
 <div class="markdown__github-container">
   <p>We're open source, so check us out on Github:</p>
   <div class="markdown__github-button">
-    <a class="github-button" href="https://github.com/offcourse/offcourse-frontend" data-style="mega" aria-label="Watch offcourse/offcourse-frontend on GitHub">Watch on Github</a>
+    <iframe src="https://ghbtns.com/github-btn.html?user=offcourse&repo=offcourse-frontend&type=watch&count=false&size=large&v=2" frameborder="0" scrolling="0" width="100px" height="30px"></iframe>
   </div>
 </div>
 

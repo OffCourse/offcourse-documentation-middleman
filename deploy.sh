@@ -1,9 +1,9 @@
 if [ $TRAVIS_BRANCH = "master" ]
 then
-  $GH_REF="github.com/offcourse/offcourse-info.git"
+  export $GH_REF="github.com/offcourse/offcourse-info.git"
 elif [ $TRAVIS_BRANCH = "production" ]
 then
-  $GH_REF="github.com/offcourse/offcourse-info.git"
+  export $GH_REF="github.com/offcourse/offcourse-info.git"
 fi
 
 # bundle exec middleman build
