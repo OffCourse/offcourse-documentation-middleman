@@ -2,9 +2,9 @@
 
 This is the repository for the Offcourse informational site. With this site we hope to present ourselves and contribute to the discourse on online learning.
 
-The site is running live at [Offcourse.io](offcourse.io)
+Production branch build automatically to: [Offcourse.io](offcourse.io) [![Build Status](https://travis-ci.org/OffCourse/offcourse-info.svg?branch=production)](https://travis-ci.org/OffCourse/offcourse-info)
 
-Master branch builds automatically to staging: [info-staging.offcourse.io](info-staging.offcourse.io)
+Master branch builds automatically to: [info-staging.offcourse.io](info-staging.offcourse.io)
 [![Build Status](https://travis-ci.org/OffCourse/offcourse-info.svg?branch=master)](https://travis-ci.org/OffCourse/offcourse-info)
 
 ## Technical info
