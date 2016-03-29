@@ -23,12 +23,12 @@
 
 // Fix this
 
-.markdown a > :not(img) {
-  border-bottom: solid 2px $red;
+.markdown a {
+  text-decoration: underline;
 }
 
-.markdown a:hover ::not(img) {
-  border-bottom: solid 2px $black;
+.markdown a:hover {
+  color: red;  
 }
 
 // Markdown with classes (HTML inside .md)

@@ -35,3 +35,7 @@ a.feature__title:hover {
   border: $gridUnit solid $black;
   font-size: $gridUnit*3;
 }
+
+.feature--boxed {
+  padding: $gridUnit * 3 0;
+}

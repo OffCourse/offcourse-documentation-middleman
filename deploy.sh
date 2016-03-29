@@ -1,13 +1,18 @@
+# Map branch to repo and set the correct domain
 if [ $TRAVIS_BRANCH = "master" ]
 then
   GH_REF="github.com/offcourse/offcourse-info.git"
+  echo info-staging.offcourse.io > build/CNAME
 elif [ $TRAVIS_BRANCH = "production" ]
 then
-  GH_REF="github.com/offcourse/offcourse-info.git"
+  GH_REF="github.com/offcourse/offcourse-info-production.git"
+  echo offcourse.io > build/CNAME
 fi
 
+# Make sure GH doesn't Jekyll build
 cp .nojekyll build/.nojekyll
-echo info-staging.offcourse.io > build/CNAME
+
+# Deploy
 cd build
 git init
 git config user.name "Zaturrby"

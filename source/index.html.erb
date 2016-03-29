@@ -18,7 +18,7 @@ layout: main
     <h1 class="textbar"><%= blog('frontpage').articles[1].data.title %></h1>
   </div>
   <% for entity in blog('frontpage').articles[1].data.concepts %>
-  <div class="feature">
+  <div class="feature feature--boxed">
     <div class="feature__meta feature__meta--fw">
       <h3 class="feature__title"><%= entity.concept %></h3>
       <p class="feature__job"><%= entity.summery %></p>
