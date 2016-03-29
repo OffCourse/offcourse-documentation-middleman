@@ -1,9 +1,10 @@
 language: ruby
-cache: bundler
+cache: 
+  bundler: true
 rvm:
   - 2.2.0
 install: 
-- bundle install
+- bundle install --path vendor/bundle
 script:
 - bundle exec middleman build
 deploy:
