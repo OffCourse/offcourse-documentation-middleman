@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title: Offcouse - Team
-date: 25-12-2013
+date: 01-03-2014
 name: Charlotte van Oostrum
 summery: 
 job: researcher and editor 

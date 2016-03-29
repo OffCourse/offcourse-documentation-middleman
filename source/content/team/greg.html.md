@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title: Offcouse - Team
-date: 25-12-2013
+date: 01-06-2015
 name: Greg Rodriguez Varias
 summery:
 job: developer

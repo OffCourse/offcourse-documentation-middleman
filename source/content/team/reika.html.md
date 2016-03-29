@@ -1,7 +1,7 @@
 ---
 layout: team-member
 title: Offcouse - Team
-date: 25-12-2013
+date: 01-06-2014
 name: Reika Egawa-Chavers
 summery:
 job: project manager and junior developer
