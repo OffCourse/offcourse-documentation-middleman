@@ -46,7 +46,7 @@ layout: main
     <h1 class="textbar"><%= blog('frontpage').articles[3].data.title %></h1>
     <div class="markdown"><%= blog('frontpage').articles[3].body %></div>
   </article>
-  <% for person in blog('team').articles %>
+  <% blog('team').articles.reverse_each do |person| %>
     <%= partial("partials/team-member", :locals => { :person => person, :extra_info => 0 }) %>
   <% end %>
 </div>
